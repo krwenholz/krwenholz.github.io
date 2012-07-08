@@ -12,11 +12,8 @@ pygments: true
 title : Pages from Kyle 
 tagline: The (semi-officially) online presence of Kyle Wenholz
 author : Kyle R. Wenholz
-  name : Kyle R. Wenholz
-  email : kyle@krwenholz.com
-  github : krwenholz
-  twitter : NA
-  feedburner : NA
+email : kyle@krwenholz.com
+github : krwenholz
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
