@@ -16,8 +16,9 @@ Washington.  Additionally, I have the incredible fortune of interning for a
 certain awesome computing company here in Washington state.
 
 My current projects are to 
- * finish my Honors Senior Thesis. . . on something I haven't though of yet.
- * launch the first product for CentsLess LLC.
+   
+    * finish my Honors Senior Thesis. . . on something.
+    * launch the first product for CentsLess LLC.
 
 ### My Posts (however few they may be) ###
 
