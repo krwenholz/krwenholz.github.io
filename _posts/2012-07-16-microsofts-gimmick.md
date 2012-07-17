@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 Some friends and I were buying a game on XBox Live the other day ("Dungeon 
-Defenders", whichi is awesome) when we noticed a strange thing about the 
+Defenders", which is awesome) when we noticed a strange thing about the 
 pricing scheme for adding points.  Get 1600 points for only $19.99.  But!
 You can get 400 points for only $4.99.
 
