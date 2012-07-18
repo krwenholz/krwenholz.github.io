@@ -13,7 +13,7 @@ After getting into the groove of things, my job had me sitting down most of
 the time.  It only took about two weeks of this for my back to begin hurting
 and my posture to crumble into chaos.  I couldn't stand it!  So I stood up ;)
 
-Some research, including a few prompts from [Lifehacker](lifehacker.com), 
+Some research, including a few prompts from [Lifehacker](http://lifehacker.com), 
 led me to consider the idea of a standing desk.  I didn't want to commit to
 one of the incredibly expensive, but very nice, desks you find through 
 conventional shopping means.  Not to be deterred, the cheap and effective 
