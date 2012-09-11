@@ -21,35 +21,8 @@ certain awesome computing company here in Washington state.
 help of my great friend and colleague, Josef Lange.)
 * Graduate, and get a job I would be thrilled to talk about with my non-technical
 grandmother.  (She's an awesome sounding board.)
-
-## Sage ##
-I did quite a bit of work with Sage the last few years.  You can head to 
-[Professor Beezer's pages](http://buzzard.pugetsound.edu) for more, but I'll
-include a cute way to try out this awesome program below.  The full notebooks
-can be found [here](http://sagenb.org).  
-
-The example uses graphs (sort of a Computer Scientist's love).
-
-<script src="http://aleph.sagemath.org/static/jquery.min.js"></script>
-<script src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
-<script>
-    $(function () {
-        sagecell.makeSagecell({inputLocation:  '#mycell',
-        template:       sagecell.templates.minimal,
-        evalButtonText: 'Activate'});
-        sagecell.makeSagecell({inputLocation: '#mycell2',
-        evalButtonText: 'Evaluate'});
-    });
-</script>
-
-<div id="mycell"><script type="text/x-sage">
-    @interact
-    def _(a=(1, 10)):
-        print factorial(a)
-    </script>
-</div>
  
-### My Posts (however few they may be) ###
+## My Posts (however few they may be) ##
 
 <ul class="posts">
   {% for post in site.posts %}
