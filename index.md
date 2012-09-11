@@ -15,11 +15,12 @@ I'm currently studying Mathematics and (two degrees yeah!) Computer Science at
 Washington.  Additionally, I have the incredible fortune of interning for a
 certain awesome computing company here in Washington state.
 
-My current projects are to 
-   
-    * finish my Honors Senior Thesis. . . on something.
-    * continue developing [LendingShack](http://lendingshack.com)! (With the
-      help of my great friend and colleague, Josef Lange.)
+##Current Projects##
+* Finish my Honors Senior Thesis. . . on something.
+* Continue developing [LendingShack](http://www.lendingshack.com)! (With the
+help of my great friend and colleague, Josef Lange.)
+* Graduate, and get a job I would be thrilled to talk about with my non-technical
+grandmother.  (She's an awesome sounding board.)
 
 ### My Posts (however few they may be) ###
 
