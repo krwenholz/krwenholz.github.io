@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Whew!  (You can find "it" [here](lendingshack.com) for those impatient enough to
+Whew!  (You can find "it" [here](http://lendingshack.com) for those impatient enough to
 not read on.) Joey and I did it.  We launched an actual website.  After getting on
 with the CentsLess team, we worked all summer to break in our actual coding
 chops, learn Django, learn the Internets, and build a working product.  It was
@@ -26,6 +26,6 @@ absolutely beam about.  This means feature creep!  Hopefully not, but classes
 and other distractions might keep us a bit blinded until we wake up to a 
 crashed site one morning. 
 
-There are many bugs to fix and usability flaws to address.  [LendingShack](lendingshack.com)
+There are many bugs to fix and usability flaws to address.  [LendingShack](http://lendingshack.com)
 is, however, something I'm really proud of and excited to continue working on.
 Expect more thoughts on the product and process to come ;)

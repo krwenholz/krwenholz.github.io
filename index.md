@@ -18,7 +18,7 @@ certain awesome computing company here in Washington state.
 My current projects are to 
    
     * finish my Honors Senior Thesis. . . on something.
-    * continue developing [LendingShack](lendingshack.com)! (With the
+    * continue developing [LendingShack](http://lendingshack.com)! (With the
       help of my great friend and colleague, Josef Lange.)
 
 ### My Posts (however few they may be) ###
