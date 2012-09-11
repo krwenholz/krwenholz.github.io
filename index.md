@@ -18,7 +18,8 @@ certain awesome computing company here in Washington state.
 My current projects are to 
    
     * finish my Honors Senior Thesis. . . on something.
-    * launch the first product for CentsLess LLC.
+    * continue developing <a href="lendingshack.com">LendingShack</a>! (With the
+      help of my great friend and colleague, Josef Lange.)
 
 ### My Posts (however few they may be) ###
 
