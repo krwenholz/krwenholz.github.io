@@ -5,15 +5,22 @@ tagline:
 ---
 {% include JB/setup %}
 
-Hi there!
+Hi there! 
+
+<div class="rotate" style="padding-left:19px;padding-right:10px;float:right;">
+<div class="sticky">
+    <img src="media/kittyAndI.jpeg" width="245" height="210"
+    style="padding:5px;-moz-border-radius:11px;border-radius:11px;-webkit-border-radius:13px;">
+</div>
+</div>
 
 My name is Kyle Wenholz, and this is my attempt at a website representing 
 myself.  I hope you enjoy your stay.
 
-I'm currently studying Mathematics and (two degrees yeah!) Computer Science at 
+I currently study Mathematics and (two degrees yeah!) Computer Science at 
 [University of Puget Sound](http://pugetsound.edu), in the lovely city of Tacoma, 
-Washington.  Additionally, I have the incredible fortune of interning for a
-certain awesome computing company here in Washington state.
+Washington.  This year, I'll be finishing up my coursework to graduate in 
+May, all whilst fending off the vicious local wildlife.
 
 ##Current Projects##
 * Finish my Honors Senior Thesis. . . on something.
