@@ -7,11 +7,9 @@ tagline:
 
 Hi there! 
 
-<div class="rotate" style="padding-left:19px;padding-right:10px;float:right;">
-<div class="sticky">
-    <img src="media/kittyAndI.jpeg" width="245" height="210"
-    style="padding:5px;-moz-border-radius:11px;border-radius:11px;-webkit-border-radius:13px;">
-</div>
+<div style="padding-left:19px;padding-right:10px;float:right;">
+    <img src="http://gravatar.com/avatar/5983deba7674b6474166b1eff13f58bc.jpg?s=250"
+        style="padding:5px;-moz-border-radius:11px;border-radius:11px;-webkit-border-radius:13px;">
 </div>
 
 My name is Kyle Wenholz, and this is my attempt at a website representing 
@@ -37,5 +35,8 @@ grandmother.  (She's an awesome sounding board.)
   {% endfor %}
 </ul>
 
-
-
+<a href="https://github.com/you">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" 
+    src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" 
+    alt="Fork me on GitHub">
+</a>
