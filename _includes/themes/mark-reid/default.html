@@ -26,6 +26,18 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" />
 
+   <script type="text/javascript">
+       window._idl = {};
+       _idl.variant = "banner";
+       (function() {
+           var idl = document.createElement('script');
+           idl.type = 'text/javascript';
+           idl.async = true;
+           idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+           document.getElementsByTagName('body')[0].appendChild(idl);
+       })();
+   </script>
+
 </head>
 <body id="{{ page.section }}">
 <div id="site">
@@ -50,13 +62,16 @@
   	<address>
   		<span class="copyright">
   			Content by <a href="/info/site.html">{{ site.author.name }}</a>. Design by 
-  			<a href="http://mark.reid.name/">Mark Reid</a>
+  			Kyle Wenholz (template: <a href="http://mark.reid.name/">Mark Reid</a>)
   			<br/>
   			(<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)			
-  		</span>
+        </span>
+        <span>
+            <a href="http://internetdefenseleague.org"><img src="http://internetdefenseleague.org/images/badges/final/footer_badge.png" alt="Member of The Internet Defense League" /></a>
+        </span>
   		<span class="engine">
   			Powered by <a href="http://github.com/mojombo/jekyll/" title="A static, minimalist CMS">Jekyll</a>
-  		</span>
+        </span>
   	</address>
   </div>
   
