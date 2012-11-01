@@ -24,14 +24,14 @@ body {
 	font-family: Palatino, georgia, "times new roman", serif;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
-    background: -moz-linear-gradient(bottom, #D6E68A 20%, #899752 90%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(20%,#D6E68A), color-stop(90%,#899752));
-    background: -webkit-linear-gradient(left, #D6E68A 20%, #899752 90%);
-    background: -o-linear-gradient(left, #D6E68A 20%, #89972 90%);
-    background: -ms-linear-gradient(left, #D6E68A 20%, #899752 90%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D6E68A', endColorstr='#899752',GradientType=1 );
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D6E68A', endColorstr='#899752',GradientType=1 );
-    background: linear-gradient(left, #D6E68A 20%, #899752 90%), #D6E68A; 
+    background: -moz-linear-gradient(bottom, #B5D3A7 10%, #788449 90%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%,#B5D3A7), color-stop(90%,#788449));
+    background: -webkit-linear-gradient(left, #B5D3A7 10%, #788449 90%);
+    background: -o-linear-gradient(left, #B5D3A7 10%, #89972 90%);
+    background: -ms-linear-gradient(left, #B5D3A7 10%, #788449 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B5D3A7', endColorstr='#788449',GradientType=1 );
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B5D3A7', endColorstr='#788449',GradientType=1 );
+    background: linear-gradient(left, #B5D3A7 10%, #788449 90%), #D6E68A; 
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
