@@ -21,7 +21,7 @@ Washington.  This year, I'll be finishing up my coursework to graduate in
 May, all whilst fending off the vicious local wildlife.
 
 ##Current Projects##
-* Finish my Honors Senior Thesis. . . on something.
+* Finish my Honors Senior Thesis on my Support Vector Machine for the timeliness of the ferry system.
 * Continue developing [LendingShack](http://www.lendingshack.com)! (With the
 help of my great friend and colleague, Josef Lange.)
 * Graduate, and get a job I would be thrilled to talk about with my non-technical
