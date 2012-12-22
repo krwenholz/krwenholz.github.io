@@ -1,23 +1,23 @@
 ---
 layout: page
 title: One step closer to absurdity
-tagline: 
+tagline:
 ---
 {% include JB/setup %}
 
-Hi there! 
+Hi there!
 
 <div style="padding-left:19px;padding-right:10px;float:right;">
     <img src="http://gravatar.com/avatar/5983deba7674b6474166b1eff13f58bc.jpg?s=250"
         style="padding:5px;-moz-border-radius:11px;border-radius:11px;-webkit-border-radius:13px;">
 </div>
 
-My name is Kyle Wenholz, and this is my attempt at a website representing 
+My name is Kyle Wenholz, and this is my attempt at a website representing
 myself.  I hope you enjoy your stay.
 
-I currently study Mathematics and (two degrees yeah!) Computer Science at 
-[University of Puget Sound](http://pugetsound.edu), in the lovely city of Tacoma, 
-Washington.  This year, I'll be finishing up my coursework to graduate in 
+I currently study Mathematics and (two degrees yeah!) Computer Science at
+[University of Puget Sound](http://pugetsound.edu), in the lovely city of Tacoma,
+Washington.  This year, I'll be finishing up my coursework to graduate in
 May, all whilst fending off the vicious local wildlife.
 
 ##Current Projects##
@@ -26,7 +26,7 @@ May, all whilst fending off the vicious local wildlife.
 help of my great friend and colleague, Josef Lange.)
 * Graduate, and get a job I would be thrilled to talk about with my non-technical
 grandmother.  (She's an awesome sounding board.)
- 
+
 ## My Posts (however few they may be) ##
 
 <ul class="posts">
@@ -36,7 +36,7 @@ grandmother.  (She's an awesome sounding board.)
 </ul>
 
 <a href="https://github.com/you">
-    <img style="position: absolute; top: 0; right: 0; border: 0;" 
-    src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" 
+    <img style="position: absolute; top: 0; right: 0; border: 0;"
+    src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
     alt="Fork me on GitHub">
 </a>
