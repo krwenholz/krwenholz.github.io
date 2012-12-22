@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 I did it!  My dotfiles are pretty well organized now, and I love it.  I recently
 swapped out my os only to discover my terminal configuration is now painless.

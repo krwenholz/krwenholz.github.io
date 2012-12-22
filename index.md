@@ -3,7 +3,6 @@ layout: page
 title: One step closer to absurdity
 tagline:
 ---
-{% include JB/setup %}
 
 Hi there!
 

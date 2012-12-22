@@ -3,7 +3,6 @@ layout: page
 title: "About Me"
 description: "The description of the creature who is Kyle Wenholz."
 ---
-{% include JB/setup %}
 
 #Who is Kyle Wenholz?#
 

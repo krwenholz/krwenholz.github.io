@@ -5,7 +5,6 @@ description: "A collection of useful LaTeX links for interested parties"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ## Some LaTeX Items ##
    

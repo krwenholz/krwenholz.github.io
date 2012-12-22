@@ -5,7 +5,6 @@ description: "An evaluation of the standing desk"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 I had no idea what to write about my experience standing up at work, until I got
 back to school and had to sit down again.  

@@ -5,7 +5,6 @@ description: "A quick review of the process to launch my first monster."
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 Whew!  (You can find "it" [here](http://lendingshack.com) for those impatient enough to
 not read on.) Joey and I did it.  We launched an actual website.  After getting on

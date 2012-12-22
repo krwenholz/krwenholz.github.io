@@ -5,7 +5,6 @@ description: "The Mathemagician's at Microsoft"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 Some friends and I were buying a game on XBox Live the other day ("Dungeon 
 Defenders", which is awesome) when we noticed a strange thing about the 

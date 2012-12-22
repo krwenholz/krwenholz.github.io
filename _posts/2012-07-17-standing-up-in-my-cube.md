@@ -5,7 +5,6 @@ description: "Brief thoughts on a stand-up desk"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 I know it's a fad by now, but I just switched over to a stand-up desk.
 
