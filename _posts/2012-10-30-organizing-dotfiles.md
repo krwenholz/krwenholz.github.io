@@ -48,4 +48,5 @@ stuff in this.</li>
 </ol>
 
 So there it is, back up your dotfiles and live a saner life.  If you want a 
-really heavy handed way to do it, or some more details, check [this](http://www.ipreferjim.com/2012/01/dotfiles-backup-using-github/) out.
+really heavy handed way to do it, or some more details, check 
+[this](http://www.ipreferjim.com/2012/01/dotfiles-backup-using-github/) out.

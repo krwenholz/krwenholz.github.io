@@ -8,17 +8,27 @@ layout: base
 <br /><br />
 <h5>Comments</h5>
 <hr />
-<!-- COMMENTS GO HERE -->
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'josefdlange'; // required: replace example with your forum shortname
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        
+<!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+    (function () {
+        var articleId = fyre.conv.load.makeArticleId(null);
+        fyre.conv.load({}, [{
+            el: 'livefyre-comments',
+            network: "livefyre.com",
+            siteId: "319342",
+            articleId: articleId,
+            signed: false,
+            collectionMeta: {
+                articleId: articleId,
+                url: fyre.conv.load.makeCollectionUrl(),
+            }
+        }], function() {});
+    }());
+</script>
+<!-- END: Livefyre Embed -->
+                                                                                                        
+
+

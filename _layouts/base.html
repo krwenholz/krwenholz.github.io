@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Josef D. Lange | {{ page.title }}</title>
+	<title>Kyle R. Wenholz | {{ page.title }}</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -35,21 +35,30 @@
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="/images/favicon.ico">
-	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+    
+    <!-- Site Metrics
+	================================================== -->
+   <script type="text/javascript">
+       window._idl = {};
+       _idl.variant = "banner";
+       (function() {
+           var idl = document.createElement('script');
+           idl.type = 'text/javascript';
+           idl.async = true;
+           idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+           document.getElementsByTagName('body')[0].appendChild(idl);
+       })();
+   </script>
 
 </head>
 <body>
-
-
 
 	<!-- Primary Page Layout
 	================================================== -->
 
 	<div class="container">
 	   {% include heading.html %}
-	   <div class="eight columns offset-by-one main">
+	   <div class="nine columns offset-by-one main">
 	   	   {{ content }}
 	   </div><!-- twelve columns -->
 	   <div class="sixteen columns">

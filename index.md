@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: One step closer to absurdity
 tagline:
 ---
