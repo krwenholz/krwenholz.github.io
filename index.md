@@ -6,11 +6,6 @@ tagline:
 
 Hi there!
 
-<div style="padding-left:19px;padding-right:10px;float:right;">
-    <img src="http://gravatar.com/avatar/5983deba7674b6474166b1eff13f58bc.jpg?s=250"
-        style="padding:5px;-moz-border-radius:11px;border-radius:11px;-webkit-border-radius:13px;">
-</div>
-
 My name is Kyle Wenholz, and this is my attempt at a website representing
 myself.  I hope you enjoy your stay.
 
@@ -19,8 +14,8 @@ I currently study Mathematics and (two degrees yeah!) Computer Science at
 Washington.  This year, I'll be finishing up my coursework to graduate in
 May, all whilst fending off the vicious local wildlife.
 
-##Current Projects##
-* Finish my Honors Senior Thesis on my Support Vector Machine for the timeliness of the ferry system.
+## Current Projects ##
+* Finish an Honors Senior Thesis on my Support Vector Machine for the timeliness of the ferry system.
 * Continue developing [LendingShack](http://www.lendingshack.com)! (With the
 help of my great friend and colleague, Josef Lange.)
 * Graduate, and get a job I would be thrilled to talk about with my non-technical

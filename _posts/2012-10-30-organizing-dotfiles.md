@@ -26,26 +26,24 @@ attached to your setup and never want to lose it.  This is why you back it up!
 I started by just making a Git repository on Github called dotfiles and cloning
 it to my machine.  Then I copied stuff in there and started my version control.
 This was bad. . . .  Why you ask?  Well, there are a few reasons.
-<ol>
-<li>Files with a '.' at the front don't show up well in most file managers.</li>
-<li>You always have to remember to copy your files when you change them and make 
-a new commit. </li>
-<li>Your process is a bit slow.</li>
-</ol>
+
+1. Files with a '.' at the front don't show up well in most file managers.
+2. You always have to remember to copy your files when you change them and make 
+a new commit.
+3. Your process is a bit slow.
 
 After a few months, I think I have some nice solutions to these problems.
-<ol>
-<li>Copy things in without the '.'.  It changes nothing about the contents, and 
+
+1. Copy things in without the '.'.  It changes nothing about the contents, and 
 you just have to remember to copy them back with a '.' if you want to restore 
-a file.</li>
-<li>This I actually haven't fixed yet, but a quick little Cron job coupled with 
-3 will fix it up quickly.</li>
-<li>I made a short shell script!  Just call it 'copyscript.sh', toss in a line 
+a file.
+2. This I actually haven't fixed yet, but a quick little Cron job coupled with 
+3 will fix it up quickly.
+3. I made a short shell script!  Just call it 'copyscript.sh', toss in a line 
 with 'cp' for every file you want to copy to your repo, and then call it with 
 'sh copyscript.sh'.  This basically automates the process.  My knowledge of 
 shell scripting is a bit limited, but I bet you can even do the git commit 
-stuff in this.</li>
-</ol>
+stuff in this.
 
 So there it is, back up your dotfiles and live a saner life.  If you want a 
 really heavy handed way to do it, or some more details, check 

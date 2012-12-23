@@ -1,5 +1,13 @@
-safe: true
-source: ./
+# Production settings
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true # always check for file changes when in --server
+safe: true # use safe plugins
+
+# Custom setting
+production_url : http://krwenholz.github.com
+source: .
 destination: ./_site
 lsi: false
-pygments: true
+pygments: true # use syntax highlighting in code
+future: true # do publish future posts
