@@ -51,7 +51,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+        background: url(/static/backgrounds/shattered.png) repeat 0 0;
 		font: 19px/27px 'Source Sans Pro', 'Pontano Sans', 'Myriad', 'Myriad Pro', 'Lucida Grande', Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
