@@ -52,7 +52,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px 'Source Sans Pro', 'Pontano Sans', 'Myriad', 'Myriad Pro', 'Lucida Grande', Helvetica, Arial, sans-serif;
+		font: 19px/27px 'Source Sans Pro', 'Pontano Sans', 'Myriad', 'Myriad Pro', 'Lucida Grande', Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -107,13 +107,21 @@
     }
 
     p.jekyll {
-        text-align: right;
         font-size: 70%;
         line-height: 120%;
     }
-    
-    ul.navigation {
-        margin-top: 10px;
+
+    .navigation {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navigation li {
+        display:inline;
+        float:left; 
+        list-style:none;
+        margin-right: 11px;
     }
     
     .main {
@@ -238,7 +246,7 @@
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	hr { border: solid #ddd; border-width: 3px 0 0; clear: both; margin: 10px 0 30px; height: 3px; }
 
 
 /* #Links
@@ -261,8 +269,7 @@
 
 /* #Lists
 ================================================== */
-	ul, ol { margin-bottom: 20px; }
-	ul { list-style: none outside; }
+	ol { margin-bottom: 20px; }
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 	ul.square { list-style: square outside; }
@@ -275,6 +282,14 @@
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
+    
+    ul {
+        list-style: disc;
+        list-style-position: inside;
+        width: 80%;
+        font-size: 90%;
+        margin-left: 20px;
+    }
 
 /* #Images
 ================================================== */
@@ -422,8 +437,40 @@
 
 /* #Misc
 ================================================== */
+pre {
+	margin: 1em 0 1.5em 0;
+	font-size: 0.75em; /* Hack to make code look same size as body font */  
+	line-height: 1.5em;	
+	color: #111;
+	background: #fffff0;
+	border: 1px solid #ddc;
+	padding: 0.5em 1em;
+	overflow: hidden;
+
+	/* Experimental CSS3 stuff */
+	box-shadow: 1px 1px 6px #ccc;
+	-webkit-box-shadow: 1px 1px 6px #ccc;
+	-moz-box-shadow: 1px 1px 6px #ccc;
+}
+pre:hover {
+	border-right: none;
+	overflow: visible;
+}
+code {
+	font-size: 1em;
+	background-color: #f7f7ff;
+	line-height: 1.4em;
+}
+pre > code {
+	background-color: transparent;
+}
+
+/* #Misc
+================================================== */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+    .alignleft { float: left; }
+    .alignright {float: right; }
 
 
