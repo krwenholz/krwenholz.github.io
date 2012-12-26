@@ -4,16 +4,6 @@ title: One step closer to absurdity
 tagline:
 ---
 
-<img src="images/christmas_lights22.png" width="700px" height="200px">
-# HEY RACHEL! #
-# MERRY CHRISTMAS! #
-Sorry I forgot to mail this in time. . . .  I'm very bad.  I hope you can
-find it in your heart to forgive me.  Enjoy :)
-
-Check [this](/for_rachel.html) out!
-<img src="images/christmas_lights22.png" width="700px" height="200px">
-
-# Everybody else: #
 Hi there!
 
 My name is Kyle Wenholz, and this is my attempt at a website representing
