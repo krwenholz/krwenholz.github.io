@@ -36,7 +36,7 @@ recognize situations that just won't work.
 > Tip 2: Figure out what you want, and get it in writing.
 
 
-## Some thoughts on the process
+### Some thoughts on the process
 How did I start applying?  Thankfully, my resume is updated 
 regularly, and I have been making massive organizational changes to
 how I work on over the last few years.  It's pretty good now.  Try
