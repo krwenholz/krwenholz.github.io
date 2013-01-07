@@ -17,7 +17,7 @@ May, all whilst fending off the vicious local wildlife.
 ## Current Projects ##
 * Finish an Honors Senior Thesis on my Support Vector Machine for the timeliness of the ferry system.
 * Continue developing [LendingShack](http://www.lendingshack.com)! (With the
-help of my great friend and colleague, Josef Lange.)
+help of my great friend and colleague, [Josef Lange](http://www.josefdlange.com).)
 * Graduate, and get a job I would be thrilled to talk about with my non-technical
 grandmother.  (She's an awesome sounding board.)
 
