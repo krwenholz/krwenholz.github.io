@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+    <title>Where's my Ferry?</title>
+
+    <meta name="description" content="Support Vector Machines for Modeling
+      Ferry Tardiness">
+		<meta name="author" content="Kyle R. Wenholz">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+      <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+          <section data-markdown>
+            <h2>Where's my Ferry?</h2>
+            <h3>Support Vector Machines for </br> Modeling Ferry Tardiness</h3>
+            <p>
+            <small>By Kyle Wenholz 
+              </br>Advised by Professor Brad Richards
+            </small>
+            <blockquote>
+              Machines take me by surprise with great frequency.
+            </blockquote>
+            - Alan Turing</br>
+            </p>
+          </section>
+          
+          <section data-markdown>
+          <script type="text/template">
+            ## Coming soon. . .
+              * <p class="fragment roll-in">Ferries</p>
+              * <p class="fragment roll-in">Massive CSV files</p>
+              * <p class="fragment roll-in">Hyperplanes</p>
+              * <p class="fragment roll-in">Tardiness</p>
+            </script>
+          <aside class="notes">
+            This is an introduction slide.  I just need to quickly go over
+            who I worked with, what my project was (Senior Project/Thesis), 
+            what's the problem, and what my solution was.
+            and 
+          </aside>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ## Why do we care about ferries?
+              ### <p class="fragment roll-in">Scheduling is cool!</p>
+              ### <p class="fragment roll-in">We can get lots of data!</p>
+            </script>
+            <aside class="notes">
+              Talk about what the ferry system is (WSDOT), 
+              and how many people use it, how the problem 
+              extends.
+            </aside>
+          </section>
+          
+          <section >
+          <h2> A portrait of the system</h2>
+          <table>
+            <tr>
+              <td style="vertical-align:middle;">
+                <ul>
+                  <li> Established in 1951</li>
+                  <li> 22 million passengers per year</li>
+                  <li> 20 terminals, 10 routes, 23 vessels</li>
+                  <li> Largest ferry system in the world for vehicles</li>
+                  <li> From Victoria to Pt. Defiance (~130 miles)</li>
+                  <li> 159,811 sailings in 2012 (12,764 in December)</li>
+                  <li> Almost 10,000,000 vehicles in 2011</li>
+                </ul>
+              </td>
+              <td valign="bottom">
+                <img width="110%" 
+                src="images/route-map-overview.gif" align="right">
+              </td>
+            </tr>
+          </table>
+          <aside class="notes">
+            Go over the details of the ferry system.
+            1. history
+            1. Boats
+            2. # Of trips per day
+            3. Routes
+            4. Places serviced
+            6. Design and planning
+            7. Resources for travelers
+              1. Vessel Watch
+              2. Pamphlets
+              3. General knowledge
+              4. Email alerts
+          </aside>
+          </section>
+          
+          <section data-markdown>
+          <script type="text/template">
+            ## Data!
+            * <p class="fragment roll-in"><s>Scraping web pages</s></p>
+            * <p class="fragment roll-in">WSDOT VesselWatch</p>
+            * <p class="fragment roll-in">NOAA Tacoma Narrows weather station</p>
+            </script>
+          <aside class="notes">
+            1. Accessibility of the Vessel Watch data
+                1. Briefly discuss the web page scraper
+                    1. Using a simulated web browser
+                    2. Accounting for "botched" grabs
+                2. Using a request for the data
+                    1. Discuss what I actually received
+                    2. Discuss the quality and amount of data
+            2. Grabbing weather data
+                1. Grabbed from a deeply hidden NOAA archive
+                2. Manually downloaded files
+                3. Why the Tacoma Narrows station
+                    1. Completeness of dates
+                    2. Completeness of records
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## Weather variables
+            - Date
+            - Time
+            - Visibility
+            - Dry bulb
+            - Wet bulb
+            - Dew point
+            - Relative humidity
+            - Wind speed
+            - Wind direction
+            - Station pressure
+            - Altimeter
+          </script>
+          <aside class="notes">
+          Talk about the many weather variables I got from NOAA.
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## Data monsters in my closet
+              * Python to clean the 340,902 ferry trips
+                  - 1034 weather recordings had missing wind data
+                  - 13,220 vessel trips removed from lack of weather data (~ 4%)
+              * Python to format it
+                  - Join ferry and weather data
+                  - Handle categorical variables
+                  - Make it all SVMable
+              * Python to eat my computer
+          </script>
+          <aside class="notes">
+            1. Discussion of data quality
+              1. Missing values
+              2. Ill formatted values
+              3. Generally consistent (huge amount so a few mistakes is okay)
+            2. Separated into 290,000 for training and 30,000 for testing
+            2. Suite of Python scripts to cut out bad data
+            3. Scripts to join weather and ferry data
+            4. Performance issues encountered
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## Choosing a crystal ball
+            ### <p class="fragment fade-in">Neural Networks</p>
+            ### <p class="fragment fade-in">Support Vector Machines</p>
+            <img src="images/correlation.png">
+          </script>
+          <aside class="notes">
+            1. Solutions considered
+                1. Artificial Intelligence as a model
+                2. Neural Networks
+                3. Support Vector Machines
+                    1. Intuitive
+                    2. More immediately supported by existing libraries
+                    3. Data lends itself well to this form of understanding
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## Linear Classifiers
+            * Inputs are feature values (think vector)
+            * Features are weighted (again, think in a vector)
+            * Output is dot product of feature and weight vectors (think >0 is
+            tardy and <0 is on time)
+            </br></br>
+            ### We want to train this weight vector.
+          </script>
+          <aside class="notes">
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## General algorithm for learning
+                Start with w = <0,0...>
+                For each training instancey y:
+                  Classify with current weights to find y'
+                  If correct: w = w
+                  If wrong:
+                      w = w + y'*y
+
+            We use y' as -1 or 1 in adjustment computation.
+          </script>
+          <aside class="notes">
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <!--
+          TODO: Does the image match my described algorithm?
+          -->
+          <script type="text/template">
+            ## Visualizing an SVM
+            <img src="images/Svm_separating_hyperplanes.png">
+          </script>
+          <aside class="notes">
+            2. What an SVM is
+                1. How an SVM works
+                2. How it relates to the ferry problem
+                    1. Separating late as >3 minutes past estimate
+                    2. The data as points in >33 space
+                3. The complication of fitting such a curve
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## Some stickier details
+            #### Ferry data isn't likely to be separable!  So I used a kernel:
+            #### Gaussian Kernel with &gamma; and _C_
+          </script>
+          <aside class="notes">
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## LibSVM
+            Chih-Chung Chang and Chih-Jen Lin
+
+            "Working set selection using second 
+            </br>order information for training SVM"
+          </script>
+          <aside class="notes">
+            3. Use of LibSVM
+                1. Why not write my own?
+                    1. Time
+                    2. Correctness
+                    3. Performance
+                2. Use in other papers/popularity
+                3. Ease of use of the library (reasonably documented)
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## If at first you fail. . . 
+            First runs were in low 60% range for accuracy.
+            
+            -> LibSVM's beginner's guide is a must read.
+            <img height="40%" width="40%" src="images/cat_and_mouse.jpg">
+          </script>
+          <aside class="notes">
+            1. Needing to fit c and gamma parameters to get better curves
+            2. Duration of runs and sheer size of data sets
+            3. Using LibSVM to do heavy lifting for subsets and such
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## Results
+
+            <table>
+              <tr>
+                <td>
+                  <h3>Arrivals</h3>
+                  <small>Full = Departure estimate and actual, </br>
+                    arrival estimate, vessel name, route, all weather</small>
+                  <ul>
+                    <li>  Full: 87.014%</li>
+                    <li>  No Weather: 88.014%</li>
+                    <li>  No Departure: 60.003%</li>
+                    <li>  No Departure, No Weather: 59.352%</li>
+                  </ul>
+                </td>
+                <td>
+                  <h3>Departures</h3>
+                  <small>
+                    Full = Departure estimate, vessel name, route, all weather
+                  </small>
+                  <li> Full: 76.308%</li>
+                  <li> No Weather: 75.686%</li>
+                </td>
+              </tr>
+            </table>
+            </script>
+          <aside class="notes">
+            1. How do we know it's correct?
+                1. Classification versus regression: I want a "useful" machine
+                2. Test sets vs. training sets
+            2. Review the numbers of the results
+                1. Results before param fitting of c and gamma
+                1. Departures
+                    1. Weather
+                    2. No weather
+                2. The more interesting: arrivals
+                    1. Weather
+                    2. No weather
+          </aside>
+          </section>
+          
+          <section data-markdown>
+          <script type="text/template">
+            ## The Weather Man
+            
+            <table>
+              <tr>
+                <td>
+                  <h3>Arrivals</h3>
+                  <small>Weather/No Weather</small>
+                  <ul>
+                    <li> Tahlequah-Point Defiance: 95.2167%/93.9333% </li>
+                    <li> Coupeville-Port Townsend: 88.3333%/87.6667% </li>
+                    <li> Kingston-Edmonds: 85.15%/94.65% </li>
+                  </ul>
+                </td>
+                <td>
+                  <h3>Departures </h3>
+                  <small>Weather/No Weather</small>
+                  <ul>
+                    <li> Tahlequah-Point Defiance: 76.0875/75.25% </li>
+                    <li> Coupeville-Port Townsend: 68.76%/69.3667% </li>
+                    <li> Kingston-Edmonds: 82.6833%/82.7583% </li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+
+
+          </script>
+          <aside class="notes">
+            Without information about the departure, the arrival time
+              predictions were strictly less than 68% accuracy.
+            1. Possible issues
+                1. Location of station
+                2. Poor quality of data
+                3. My error
+                4. Ferries really are consistent enough to not need weather
+            2. Running individual routes
+                1. Closest to Tacoma Narrows
+                2. Middleish (randomly selected)
+                3. Geographically furthest
+
+
+            96.4% on time 
+            Best: Pt. Defiance/Tahlequah and Edmonds/Kingston (99.5%)
+            Worst: Anacortes/San Juans (88.9%)
+          </aside>
+          </section>
+
+          <section data-markdown>
+          <script type="text/template">
+            ## In summary
+            * The state of Java web frameworks (in brief)
+            * A proper live application (i.e. I'm not a great prototyper)
+            * Uncertainty in how VesselWatch works
+            * Mining relationships in the data: regression
+            </script>
+          <aside class="notes">
+            1. Making an actual application
+                1. State of Java web frameworks
+                2. Need to scrape or grab user data
+                3. Update SVM
+            2. Are the schedules online adjusted as time goes by
+            3. Mining the data for patterns
+          </aside>
+          </section>
+          
+          <section data-markdown>
+          <script type="text/template">
+            ## Any questions?
+            <img width="60%" height="60%" src="images/curious-cat.jpg">
+          </script>
+          <aside class="notes">
+          </aside>
+          </section>
+
+
+
+
+<!--------------------------------------------------------------------------
+        LOADING SCRIPTS AND EXTRAS
+--------------------------------------------------------------------------->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
