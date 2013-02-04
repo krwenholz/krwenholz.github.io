@@ -40,6 +40,7 @@
             <p>
             <small>By Kyle Wenholz 
               </br>Advised by Professor Brad Richards
+              </br> Thanks a ton, Brad.
             </small>
             </p>
           </section>
@@ -47,15 +48,6 @@
           <!-- 
             FIXME: font awesome is broken
           -->
-
-          <section data-markdown>
-          <script type="text/template">
-            # Thank you Brad!
-          </script>
-          <aside class="notes">
-          </aside>
-          </section>
-
           
           <section data-markdown>
           <script type="text/template">
@@ -89,13 +81,12 @@
 
           <section data-markdown>
           <script type="text/template">
-            ## The Support Vector Machine </br>and Me
+            ## Classification
             * Features are intuitive
                 - Route
                 - Vessel
                 - Weather
             * Hyperplanes are (mostly) intuitive
-            * SVMs were born for big data sets
           </script>
           <aside class="notes">
             Discuss the major benefits of SVM for my project: features, 
@@ -105,7 +96,7 @@
 
           <section data-markdown>
           <script type="text/template">
-            ## Common uses of SVMs
+            ## Common uses of linear classifiers
             * Spam
             * Cancer from images
             * Facial recognition
@@ -124,6 +115,22 @@
             super computer.
           <aside>
           </section>
+          
+          <section data-markdown>
+          <script type="text/template">
+            ## Ho! An example!
+            <img src="images/basic_svm_data.png">
+          </script>
+          <aside class="notes">
+            2. What an SVM is
+                1. How an SVM works
+                2. How it relates to the ferry problem
+                    1. Separating late as >3 minutes past estimate
+                    2. The data as points in >33 space
+                3. The complication of fitting such a curve
+          </aside>
+          </section>
+
 
           <section data-markdown>
           <script type="text/template">
@@ -160,12 +167,6 @@
           </aside>
           </section>
 
-          <section data-markdown>
-          <script type="text/template">
-            ## WOAH! Where do we get the weights?
-          </script>
-          </section>
-
          <section data-markdown>
           <script type="text/template">
             ## Categorical to numeric
@@ -192,14 +193,22 @@
           </script>
           </section>
 
-
           <section data-markdown>
           <script type="text/template">
             ## Recipe for learning
             * Training data
+              - Mix of both classes
+              - "Big"
             * A machine to train the weight vector
+              - Draws those lines many times
+              - Knows when to stop
             * Mighty hardware to do the calculations
+              - Exponentially difficult
+              - Long running process
             * Test data for validation
+              - Disjoint from training data
+              - Mix of both classes
+              - Also "big"
           </script>
           <aside class="notes">
           </aside>
