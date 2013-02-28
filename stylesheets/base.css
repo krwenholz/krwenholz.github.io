@@ -184,8 +184,26 @@
 
     .connections {
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 3px;
     }
+
+    .sub-nav {
+        text-align: right;
+    }
+
+    .sub-nav a {
+        color: #888888;
+    }
+    
+    .sub-nav a:visited {
+        color: #888888;
+    }
+    
+    .sub-nav a:hover {
+        text-decoration: none;
+        color: #666666;
+    }
+
     
 /* #Typography
 ================================================== */
