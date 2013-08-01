@@ -6,9 +6,10 @@ tagline:
 
 Here, you can find all sorts of information about our venues, food, times,
 registry, and anything else we want you to know when you join us for the
-ceremony and reception on November 2nd. The tabs (above) will give you some
+ceremony and reception on November 9th. The tabs (above) will give you some
 fun bits of information, but the bulk of everything will be here, in one nice
 and tidy place.
+
 <img alt="Good thing we didn't fall off the chairlift" 
 class="round-corners centered"
 src="/static/images_wedding_site/P1000129.JPG" width="414"
