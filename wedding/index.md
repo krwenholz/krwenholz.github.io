@@ -4,16 +4,16 @@ title: It's a wedding!
 tagline:
 ---
 
+<img alt="Good thing we didn't fall off the chairlift" 
+class="round-corners" align="left" style="margin-right: 20px"
+src="/static/images_wedding_site/2011_Spring_Break_072A.jpg" width="245"
+height="330">
+
 Here, you can find all sorts of information about our venues, food, times,
 registry, and anything else we want you to know when you join us for the
 ceremony and reception on November 9th. The tabs (above) will give you some
 fun bits of information, but the bulk of everything will be here, in one nice
 and tidy place.
-
-<img alt="Good thing we didn't fall off the chairlift" 
-class="round-corners centered"
-src="/static/images_wedding_site/P1000129.JPG" width="414"
-height="311">
 
 # Registry
 First, don't think you need to get us anything. We're really excited if you
@@ -38,8 +38,3 @@ width="500" height="330">
 # Hotels
 We thought of some cool places you might want to check out. You'll be the first
 to know when we figure these out.
-
-<img alt="Good thing we didn't fall off the chairlift" 
-class="round-corners centered"
-src="/static/images_wedding_site/2011_Spring_Break_072A.jpg" width="245"
-height="330">
