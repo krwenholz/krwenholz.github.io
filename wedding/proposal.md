@@ -9,7 +9,7 @@ fun details Rachel wants to share with you:
 
 <img alt="Look at all those. . . lily pads."
 class="round-corners" align="right" style="margin-left: 20px"
-src="/static/images_wedding_site/P1000121.jpg" width="245"
+src="/static/images_wedding_site/P1000121.JPG" width="245"
 height="330">
 
 After endless warm Seattle summer days this was a cloudy day with thunder and
@@ -26,7 +26,7 @@ rain subsided by the time we arrived at the gardens.
 
 <img alt="The cupcake."
 class="round-corners" align="left" style="margin-right: 20px"
-src="/static/images_wedding_site/P1000128.jpg" width="258"
+src="/static/images_wedding_site/P1000128.JPG" width="258"
 height="190">
 
 Kyle brought his camera and took lots of pictures - quite atypical of him. We
@@ -38,7 +38,7 @@ the bag, opened it up, and pulled out a pink rubber ring.
 
 <img alt=":D  She's wearing a ring!"
 class="round-corners" align="right" style="margin-left: 20px"
-src="/static/images_wedding_site/P1000132.jpg" width="245"
+src="/static/images_wedding_site/P1000132.JPG" width="245"
 height="330">
 
 I held it up to Kyle with a questioning look and said, “There’s a ring inside
