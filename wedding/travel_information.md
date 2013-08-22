@@ -13,7 +13,7 @@ noted, we have booked some rooms to get you sweet sweet discounts.
 
 We booked ten rooms to get: discounted room rate $109.00 (there is a 15.6% tax
 as well as a $2.00 tourism fee per room/per night). Reservations can be made
-by calling the front desk at 206-282-700 before Oct 11, 2013. Ask for
+by calling the front desk at 206-282-7700 before Oct 11, 2013. Ask for
 Willis/Wenholz Wedding Group. The group rate will be honored 3 days before and
 after the group dates.
 

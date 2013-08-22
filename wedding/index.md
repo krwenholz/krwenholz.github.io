@@ -34,7 +34,3 @@ It's awesome. You can even find directions on [the site](http://www.thecanalseat
 <img alt="The Canal is a great venue." class="round-corners centered"
 src="/static/images_wedding_site/2013_Wedding_Venue_Tours_019.JPG" 
 width="500" height="330">
-
-# Hotels
-We thought of some cool places you might want to check out. You'll be the first
-to know when we figure these out.
