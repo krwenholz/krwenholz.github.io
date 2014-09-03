@@ -9,11 +9,11 @@ Hi there!
 My name is Kyle Wenholz, and this is my attempt at a website representing
 myself.  I hope you enjoy your stay.
 
-Over a year ago, I finished studying Mathematics and (two degrees yeah!) 
-Computer Science at [University of Puget Sound](http://pugetsound.edu), 
+Over a year ago, I finished studying Mathematics and (two degrees yeah!)
+Computer Science at [University of Puget Sound](http://pugetsound.edu),
 in the lovely city of Tacoma, Washington. Post-graduation, I started work
-at an awesome local company writing software to manage reverse-logistics.  
-This is what you'd call a great gig with great co-workers, challenges, and 
+at an awesome local company writing software to manage reverse-logistics.
+This is what you'd call a great gig with great co-workers, challenges, and
 perks. Let's just say I'm blessed.
 
 As for being blessed, Rachel Willis said yes!  We're married now!  We spend
