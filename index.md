@@ -34,9 +34,7 @@ timeliness of the ferry system.</strike>
 non-technical grandmother.  (She's an awesome sounding board.)</strike>  
 Success!
 * <strike>Continue developing [LendingShack](http://www.lendingshack.com)! (With the help of my great friend and colleague, 
-[Josef Lange](http://www.josefdlange.com).)
-</strike>  
-This one closed down a while ago, but boy was it great.
+[Josef Lange](http://www.josefdlange.com).)</strike> This one closed down a while ago, but boy was it great.
 
 Want more?  Head to my [projects page](/projects)!
 
