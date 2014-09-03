@@ -9,22 +9,25 @@ Hi there!
 My name is Kyle Wenholz, and this is my attempt at a website representing
 myself.  I hope you enjoy your stay.
 
-I just finished studying Mathematics and (two degrees yeah!) Computer Science at
-[University of Puget Sound](http://pugetsound.edu), in the lovely city of Tacoma,
-Washington. Post-graduation, I have a job at an awesome local company: working
-in reverse-logistics.  This is what you'd call a great gig with great 
-co-workers, challenges, and perks. Let's just say I'm blessed.
+Over a year ago, I finished studying Mathematics and (two degrees yeah!) 
+Computer Science at [University of Puget Sound](http://pugetsound.edu), 
+in the lovely city of Tacoma, Washington. Post-graduation, I started work
+at an awesome local company writing software to manage reverse-logistics.  
+This is what you'd call a great gig with great co-workers, challenges, and 
+perks. Let's just say I'm blessed.
 
-As for being blessed, Rachel Willis said yes!  We're engaged!  You can find
-some more information about the shindig in those invitations we sent out, or 
-just shoot me an email.
+As for being blessed, Rachel Willis said yes!  We're married now!  We spend
+our time adventuring and discovering new meals in our growing library of 
+cookbooks.
 
 ## Current Projects ##
 * Think up something awesome to do with a functional programming language. 
 Current ideas:
   * Parse my huge collection of WSDOT ferry delay emails.
   * Work out some linear algebra.
-* Plan an awesome wedding, to an awesome woman.
+  * Create an API calling web service I can control via text messaging. (I still have a dinosaur phone.)
+  * Write a Sudoku solver.
+* <strike>Plan an awesome wedding, to an awesome woman.</strike>
 * <strike>Finish an Honors Senior Thesis on my Support Vector Machine for the 
 timeliness of the ferry system.</strike>
 * <strike>Graduate, and get a job I would be thrilled to talk about with my 
