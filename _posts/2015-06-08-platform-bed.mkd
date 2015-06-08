@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Platform bed"
+description: "Plans and pictures for a beautiful platform bed"
+category: 
+tags: []
+---
+
+Coming soon: the plans and pictures
