@@ -6,20 +6,40 @@ category:
 tags: []
 ---
 
-IMAGE OF THE FINISHED BED
+![The finished bed](https://goo.gl/photos/5qVa3NKegAy76Q2U9 "The finished bed")
 
-Back in February, Rachel, my wife, and I started work on a new set of bedroom furniture. It began with little things like a [headboard](LINK TO PHOTO) and a [bookcase](LINK TO PHOTO). Because we decided a dresser was more complicated than I wanted to build, the largest project was the bed. I took a lot of time cobbling together various tutorials and images from across the web and Seattle's many furniture stores to finally settle on a platform bed that looks a lot like Crate and Barrel's [Atwood](http://www.crateandbarrel.com/furniture/beds/atwood-bed-with-bookcase/f42064) bed. It turned out pretty simple and feels solid several weeks later, so here are the plans!
+Back in February, Rachel, my wife, and I started work on a new set of bedroom furniture. 
+It began with little things like a [headboard](https://goo.gl/photos/T7ww6KbSTyWAwk5w5) 
+and a [bookcase](LINK TO PHOTO). Because we decided a dresser was more complicated than 
+I wanted to build, the largest project was the bed. I took a lot of time cobbling together 
+various tutorials and images from across the web and Seattle's many furniture stores to 
+finally settle on a platform bed that looks a lot like Crate and Barrel's 
+[Atwood](http://www.crateandbarrel.com/furniture/beds/atwood-bed-with-bookcase/f42064) bed. 
+It turned out pretty simple and feels solid several weeks later, so here are the plans!
 
-MATERIALS AND TOOLS
+## Materials
+* Stain colour of your choice
+* Pre-stain to go with said stain
+* Standard wood screws
 
-CUT LIST
+## Tools
+* Drill
+* Brushes or rags for staining
+* Drill bits for pre-drilling screw holes
 
-SUGGESTIONS ON FINDING BEAUTIFUL BEAMS
+## Suggestions
+### Beam hunting
+Home Depot is great for many projects, but for beautiful cedar (or pine) beams, I went to 
+a local lumber yard: [Dunn Lumber](http://www.dunnlumber.com/locations/Seattle) in Seattle. 
+The quality of wood there was significantly better and the guys behind the counter were more 
+knowledgeable.
 
-STAINING AND SANDING AND USING PRE-STAIN
+### Staining
+It's simple: sand it down nicely, wipe clean with a rag and some mineral spirits, and use 
+pre-stain. The latter will ensure you don't get streaking or splotches. It's amazing.
 
-PLANS: overall beam connecting, rails, slats, feet (leave it open)
+## Plans
+overall beam connecting, rails, slats, feet (leave it open)
 
-ASSEMBLY
+## Assembly
 
-FINISHED PRODUCT
