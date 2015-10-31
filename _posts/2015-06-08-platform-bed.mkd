@@ -6,7 +6,7 @@ category:
 tags: []
 ---
 
-![The finished bed](/images/furniture/platform_bed/finished_bed.jpg "The finished bed")
+![The finished bed](/images/furniture/platform_bed/finished_bed.jpg "The finished bed" =250)
 
 Back in February, Rachel, my wife, and I started work on a new set of bedroom furniture. 
 It began with little things like [a](/images/furniture/headboard/headboard_signature.jpg) 
