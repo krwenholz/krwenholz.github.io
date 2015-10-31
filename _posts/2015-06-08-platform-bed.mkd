@@ -6,11 +6,12 @@ category:
 tags: []
 ---
 
-![The finished bed](https://goo.gl/photos/5qVa3NKegAy76Q2U9 "The finished bed")
+![The finished bed](/images/furniture/platform_bed/finished_bed.jpg "The finished bed")
 
 Back in February, Rachel, my wife, and I started work on a new set of bedroom furniture. 
-It began with little things like a [headboard](https://goo.gl/photos/T7ww6KbSTyWAwk5w5) 
-and a [bookcase](LINK TO PHOTO). Because we decided a dresser was more complicated than 
+It began with little things like [a](/images/furniture/headboard/headboard_signature.jpg) 
+[headboard](/images/furniture/headboard/finished_headboard.jpg) 
+and a [bookcase](/images/furniture/bookcase.jpg). Because we decided a dresser was more complicated than 
 I wanted to build, the largest project was the bed. I took a lot of time cobbling together 
 various tutorials and images from across the web and Seattle's many furniture stores to 
 finally settle on a platform bed that looks a lot like Crate and Barrel's 
@@ -18,9 +19,18 @@ finally settle on a platform bed that looks a lot like Crate and Barrel's
 It turned out pretty simple and feels solid several weeks later, so here are the plans!
 
 ## Materials
+Measurements for a queen size bed are in parentheses.
 * Stain colour of your choice
 * Pre-stain to go with said stain
+* Mineral spirits
 * Standard wood screws
+* 4 6", or larger, metal corner braces
+* 8-10 1x4x60" pine boards for slats to set your mattress on
+* 2 2x2x80" pine boards for runners to set the slats on
+* 4 1x4x12" pine boards for connecting beams
+* 2 4x6x80" cedar beams
+* 1 4x6x70" ceader beam
+* 1 4x4x70" cedar beam
 
 ## Tools
 * Drill
@@ -38,8 +48,7 @@ knowledgeable.
 It's simple: sand it down nicely, wipe clean with a rag and some mineral spirits, and use 
 pre-stain. The latter will ensure you don't get streaking or splotches. It's amazing.
 
-## Plans
-overall beam connecting, rails, slats, feet (leave it open)
-
-## Assembly
+## Plans and assembly
+In lieu of detailed plans (because I thought half the fun was making up my own), I'm going to
+share some photos of the process and brief descriptions of what I was doing.
 
