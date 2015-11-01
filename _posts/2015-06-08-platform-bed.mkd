@@ -19,15 +19,16 @@ and a bookcase
 
 <img src="/images/furniture/bookcase.jpg" width="350"/>
 
-Because we decided a dresser was more complicated than 
-I wanted to build, the largest project was the bed. I took a lot of time cobbling together 
+The largest project so far is a bed. I took a lot of time cobbling together 
 various tutorials and images from across the web and Seattle's many furniture stores to 
 finally settle on a platform bed that looks a lot like Crate and Barrel's 
 [Atwood](http://www.crateandbarrel.com/furniture/beds/atwood-bed-with-bookcase/f42064) bed. 
-It turned out pretty simple and feels solid several weeks later, so here are the plans!
+It turned out pretty simple and feels solid several months later, so here are the plans!
 
 ## Materials
-Measurements for a queen size bed are in parentheses.
+Measurements are for a queen size bed. If you want to work on a 
+[smaller bed](https://en.wikipedia.org/wiki/Bed_size#Standard_North_American_sizes), 
+adjust the length dimensions (last) for the beams and pine boards.
 
 * Stain colour of your choice
 * Pre-stain to go with said stain
@@ -97,6 +98,14 @@ rectangular hollow section:
 And boy do they look good! I didn't bother attaching them since the weight of
 the frame and mattress keep everything in place. You may want to attach the 
 slats your mattress sits on with some screws going into the runners, but that's
-the last piece of the puzzle!
+the last piece of the puzzle and entirely optional!
 
-Good luck!
+## Afterthoughts
+I might have chosen to go with cedar boards instead of beams, but the thich look
+of the beams is just spectacular. It looks like someone pulled the bed straight
+out of a mountain man's cabin! The plans should be generally the same if you want 
+use 2x6 cedar boards instead of beams, but you would need to ensure the 1x4 braces
+on the bottom are enough to connect your cedar boards. I'm not sure they would be.
+
+If you decide to build your own, take your time, do some research, and start with
+some smaller projects first. Good luck!
