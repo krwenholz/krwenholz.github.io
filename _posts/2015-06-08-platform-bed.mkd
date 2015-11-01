@@ -59,6 +59,42 @@ It's simple: sand it down nicely, wipe clean with a rag and some mineral spirits
 pre-stain. The latter will ensure you don't get streaking or splotches. It's amazing.
 
 ## Plans and assembly
-In lieu of detailed plans (because I thought half the fun was making up my own), I'm going to
-share some photos of the process and brief descriptions of what I was doing.
+You'll want to set aside a large space for assembly, since you'll have to flip the 
+bed over at certain points. Additionally, make sure someone is around to help you do
+the flipping. This design doesn't really become sturdy until all of the pieces are in
+place, but once they are, it's a heavy and nigh indistructible son of a gun.
 
+You'll want to start by attaching your corner braces and 2x2 runners as shown here:
+
+<img src="/images/furniture/headboard/bed_inner_corner.jpg" width="350"/>
+
+Note that the corner brace is going to be _underneath_ the runner and you should leave at 
+least an inch of space for the slats to sit on top of the runner. Pre-drilling the runners
+will ensure they don't split, so only skip that step if you feel really lucky.
+I attached the runners after the corner braces and attaching at least one end to each side 
+beam, so in the image, the upright beam is an end (top or bottom).
+
+The order of attachment was such that I ended up with an _L_ then a _U_ and finally my
+nice rectangular frame. At each joint, I attached the corner braces and then the 1x4 on
+the bottom, as shown in this image:
+
+<img src="/images/furniture/platform_bed/frame_assembling.jpg" width="350"/>
+
+Attaching the second side was the trickiest becasue we had to flip the bed over and hold
+it steady as we attached the corner braces and 1x4s.
+
+<img src="/images/furniture/platform_bed/frame_assembled.jpg" width="350"/>
+
+Once it's all assembled, you're probably wondering, "What do I use for feet?"
+Originally I used big wooden blocks, but a few months later I headed to my local
+[Metal Supermarkets](http://metalsupermarkets.com/) and picked up some steel 
+rectangular hollow section:
+
+<img src="/images/furniture/platform_bed/foot.jpg" width="350"/>
+
+And boy do they look good! I didn't bother attaching them since the weight of
+the frame and mattress keep everything in place. You may want to attach the 
+slats your mattress sits on with some screws going into the runners, but that's
+the last piece of the puzzle!
+
+Good luck!
