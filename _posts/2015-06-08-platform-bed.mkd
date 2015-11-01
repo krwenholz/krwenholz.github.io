@@ -6,12 +6,20 @@ category:
 tags: []
 ---
 
-<img src="/images/furniture/platform_bed/finished_bed.jpg" width="300"/>
+<img src="/images/furniture/platform_bed/finished_bed.jpg" width="350"/>
 
 Back in February, Rachel, my wife, and I started work on a new set of bedroom furniture. 
-It began with little things like [a](/images/furniture/headboard/headboard_signature.jpg) 
-[headboard](/images/furniture/headboard/finished_headboard.jpg) 
-and a [bookcase](/images/furniture/bookcase.jpg). Because we decided a dresser was more complicated than 
+It began with little things like a headboard
+
+<img src="/images/furniture/headboard/headboard_signature.jpg" width="350"/>
+
+<img src="/images/furniture/headboard/finished_headboard.jpg" width="350"/> 
+
+and a bookcase
+
+<img src="/images/furniture/bookcase.jpg" width="350"/>
+
+Because we decided a dresser was more complicated than 
 I wanted to build, the largest project was the bed. I took a lot of time cobbling together 
 various tutorials and images from across the web and Seattle's many furniture stores to 
 finally settle on a platform bed that looks a lot like Crate and Barrel's 
@@ -20,6 +28,7 @@ It turned out pretty simple and feels solid several weeks later, so here are the
 
 ## Materials
 Measurements for a queen size bed are in parentheses.
+
 * Stain colour of your choice
 * Pre-stain to go with said stain
 * Mineral spirits
@@ -38,6 +47,7 @@ Measurements for a queen size bed are in parentheses.
 * Drill bits for pre-drilling screw holes
 
 ## Suggestions
+
 ### Beam hunting
 Home Depot is great for many projects, but for beautiful cedar (or pine) beams, I went to 
 a local lumber yard: [Dunn Lumber](http://www.dunnlumber.com/locations/Seattle) in Seattle. 
