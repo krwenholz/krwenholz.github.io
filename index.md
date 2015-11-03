@@ -21,9 +21,8 @@ our time adventuring and discovering new meals in our growing library of
 cookbooks.
 
 ## Current Projects ##
-* Build more furniture! [This post](/2015/10/31/platform-bed/) covers
-everything I've built as of August 2018. Side tables and Christmas gifts
-are up next.
+* Build more furniture! You can check out a post on the bed I built, and
+a few other pieces up through August 2018, [here](/2015/10/31/platform-bed/).
 * <strike>Plan an awesome wedding, to an awesome woman.</strike>
 * <strike>Finish an Honors Senior Thesis on my Support Vector Machine for the 
 timeliness of the ferry system.</strike>
