@@ -46,6 +46,7 @@ adjust the length dimensions (last) for the beams and pine boards.
 * Drill
 * Brushes or rags for staining
 * Drill bits for pre-drilling screw holes
+* Palm sander (or just sandpaper if you're a masochist)
 
 ## Suggestions
 
@@ -63,11 +64,11 @@ pre-stain. The latter will ensure you don't get streaking or splotches. It's ama
 You'll want to set aside a large space for assembly, since you'll have to flip the 
 bed over at certain points. Additionally, make sure someone is around to help you do
 the flipping. This design doesn't really become sturdy until all of the pieces are in
-place, but once they are, it's a heavy and nigh indistructible son of a gun.
+place, but once they are, it's a heavy and nigh indestructible son of a gun.
 
 You'll want to start by attaching your corner braces and 2x2 runners as shown here:
 
-<img src="/images/furniture/headboard/bed_inner_corner.jpg" width="350"/>
+<img src="/images/furniture/platform_bed/bed_inner_corner.jpg" width="350"/>
 
 Note that the corner brace is going to be _underneath_ the runner and you should leave at 
 least an inch of space for the slats to sit on top of the runner. Pre-drilling the runners
@@ -101,9 +102,9 @@ slats your mattress sits on with some screws going into the runners, but that's
 the last piece of the puzzle and entirely optional!
 
 ## Afterthoughts
-I might have chosen to go with cedar boards instead of beams, but the thich look
+I might have chosen to go with cedar boards instead of beams, but the thick look
 of the beams is just spectacular. It looks like someone pulled the bed straight
-out of a mountain man's cabin! The plans should be generally the same if you want 
+out of a mountain man's cabin! The plans should be generally the same if you want to
 use 2x6 cedar boards instead of beams, but you would need to ensure the 1x4 braces
 on the bottom are enough to connect your cedar boards. I'm not sure they would be.
 
