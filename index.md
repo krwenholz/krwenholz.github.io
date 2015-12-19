@@ -22,7 +22,7 @@ cookbooks.
 
 ## Current Projects ##
 * Build more furniture! You can check out a post on the bed I built, and
-a few other pieces up through August 2018, [here](/2015/10/31/platform-bed/).
+a few other pieces up through August 2016, [here](/2015/10/31/platform-bed/).
 * <strike>Plan an awesome wedding, to an awesome woman.</strike>
 * <strike>Finish an Honors Senior Thesis on my Support Vector Machine for the 
 timeliness of the ferry system.</strike>
