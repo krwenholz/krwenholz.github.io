@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Merry 3rd Christmas Rachel"
+description: "A note for my Wifey"
+category: 
+tags: []
+---
+
 Our third Christmas together, and our first mostly 
 just the two of us! This sure is fun! I love you
 Wifey :)
