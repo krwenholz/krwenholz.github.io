@@ -18,12 +18,14 @@ fun bits of information, but the bulk of your burning questions are answered
 here, in one nice and tidy place.
 
 ## Q: Where is the wedding?
-## A: Ballard Church
+
+### A: Ballard Church
 You can come join us in [this](http://www.ballardchurch.com/) gorgeous house 
 of worship for our ceremony.
 
 ## Q: Where is the reception?
-## A: The Canal
+
+### A: The Canal
 It's awesome. You can even find directions on [the site](http://www.thecanalseattle.com/index.htm).
 
 ## Q: When does it all happen?
@@ -37,8 +39,10 @@ for the ceremony.
 * Before 10:00 p.m. - Rachel and Kyle depart.
 
 </br>
+
 ## Q: Have you registered with anyone?
-## A: Yes. The Internet.
+
+### A: Yes. The Internet.
 First, don't think you need to get us anything. We're really excited if you
 can even make it out. If a gift is in the cards, though, read on!
 
