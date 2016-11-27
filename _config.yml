@@ -9,5 +9,5 @@ production_url : http://krwenholz.github.com
 source: .
 destination: ./_site
 lsi: false
-pygments: true # use syntax highlighting in code
+highlighter: rouge # use syntax highlighting in code
 future: true # do publish future posts
