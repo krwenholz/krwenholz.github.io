@@ -1,7 +1,6 @@
 # Production settings
 permalink: /:categories/:year/:month/:day/:title 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true # always check for file changes when in --server
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile"]
 safe: true # use safe plugins
 
 # Custom setting
