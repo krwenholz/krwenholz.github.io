@@ -11484,13 +11484,12 @@ var _krwenholz$budget_visualization$BudgetVisualization$init = {
 var _krwenholz$budget_visualization$BudgetVisualization$output = _elm_lang$core$Native_Platform.outgoingPort(
 	'output',
 	function (v) {
-		return [
-			{
-			labels: _elm_lang$core$Native_List.toArray(v._0.labels).map(
+		return {
+			labels: _elm_lang$core$Native_List.toArray(v.labels).map(
 				function (v) {
 					return v;
 				}),
-			datasets: _elm_lang$core$Native_List.toArray(v._0.datasets).map(
+			datasets: _elm_lang$core$Native_List.toArray(v.datasets).map(
 				function (v) {
 					return {
 						label: v.label,
@@ -11500,19 +11499,7 @@ var _krwenholz$budget_visualization$BudgetVisualization$output = _elm_lang$core$
 							})
 					};
 				})
-		},
-			_elm_lang$core$Native_Array.toJSArray(v._1).map(
-			function (v) {
-				return {
-					name: v.name,
-					initialValue: v.initialValue,
-					incomeEvents: _elm_lang$core$Native_Array.toJSArray(v.incomeEvents).map(
-						function (v) {
-							return {name: v.name, flatChange: v.flatChange, percentChange: v.percentChange};
-						})
-				};
-			})
-		];
+		};
 	});
 var _krwenholz$budget_visualization$BudgetVisualization$update = F2(
 	function (action, accounts) {
@@ -11521,11 +11508,7 @@ var _krwenholz$budget_visualization$BudgetVisualization$update = F2(
 			ctor: '_Tuple2',
 			_0: updatedModel,
 			_1: _krwenholz$budget_visualization$BudgetVisualization$output(
-				{
-					ctor: '_Tuple2',
-					_0: _krwenholz$budget_visualization$BudgetMath$asData(updatedModel),
-					_1: updatedModel
-				})
+				_krwenholz$budget_visualization$BudgetMath$asData(updatedModel))
 		};
 	});
 var _krwenholz$budget_visualization$BudgetVisualization$UpdateAcountMsg = F2(

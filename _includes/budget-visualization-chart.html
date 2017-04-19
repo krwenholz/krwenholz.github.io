@@ -34,47 +34,73 @@ var lineChart;
 var displayDiv = document.getElementById('budget-input')
 var app = Elm.BudgetVisualization.embed(displayDiv);
 
+var currentData = null;
+var currentHash = JSON.stringify(currentData);
+
 app.ports.output.subscribe(function(extrapolation) {
-  extrapolation[0].datasets.forEach(function(data, index, array) {
-    data.backgroundColor = colors[index % colors.length];
-    data.borderColor = colors[index % colors.length];
-    data.pointRadius = 0;
-  });
-  lineChart = new Chart(canvas, {
-    type: 'line',
-    data: extrapolation,
-    options: {
-      title: {
-        display: true,
-        text: 'Account Value Predictions'
-      },
-      tooltips: {
-        mode: 'index'
-      },
-      hover: {
-        mode: 'index'
-      },
-      scales: {
-        xAxes: [{
-          display: true,
-          scaleLabel: {
-            display: true,
-            labelString: 'Month'
-          },
-          ticks: {
-            autoSkip: true,
-            maxTicksLimit: 20
-          }
-        }],
-        yAxes: [{
-          display: true,
-          scaleLabel: {
-            display: true,
-            labelString: 'Dollars'
-          }
-        }]
-      }
-    }
-  });
+  currentData = extrapolation;
+  currentHash = JSON.stringify(currentData);
 });
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function vivifyChart() {
+  chartData = currentData;
+  chartHash = JSON.stringify(chartData);
+  while (true) {
+    await sleep(3000);
+    console.log(currentHash)
+    console.log(chartHash)
+    if (chartHash === currentHash) {
+      continue;
+    }
+    chartData = currentData;
+    chartHash = JSON.stringify(chartData);
+    chartData.datasets.forEach(function(data, index, array) {
+      data.backgroundColor = colors[index % colors.length];
+      data.borderColor = colors[index % colors.length];
+      data.pointRadius = 0;
+    });
+    lineChart = new Chart(canvas, {
+      type: 'line',
+      data: chartData,
+      options: {
+        title: {
+          display: true,
+          text: 'Account Value Predictions'
+        },
+        tooltips: {
+          mode: 'index'
+        },
+        hover: {
+          mode: 'index'
+        },
+        scales: {
+          xAxes: [{
+            display: true,
+            scaleLabel: {
+              display: true,
+              labelString: 'Month'
+            },
+            ticks: {
+              autoSkip: true,
+              maxTicksLimit: 20
+            }
+          }],
+          yAxes: [{
+            display: true,
+            scaleLabel: {
+              display: true,
+              labelString: 'Dollars'
+            }
+          }]
+        }
+      }
+    });
+  }
+}
+
+vivifyChart();
 </script>
