@@ -5,6 +5,7 @@
 <script>
 // FIXME: there's a bug on updates where the chart takes on old values
 function getColors() {
+  console.log("XXXXXX");
   setsOfSix = 10;
   predefined = [ [0, 0, 255]
                , [0, 255, 0]
@@ -34,8 +35,8 @@ var lineChart;
 var displayDiv = document.getElementById('budget-input')
 var app = Elm.BudgetVisualization.embed(displayDiv);
 
-app.ports.exportExtrapolation.subscribe(function(extrapolation) {
-  extrapolation.datasets.forEach(function(data, index, array) {
+app.ports.output.subscribe(function(extrapolation) {
+  extrapolation[0].datasets.forEach(function(data, index, array) {
     data.backgroundColor = colors[index % colors.length];
     data.borderColor = colors[index % colors.length];
     data.pointRadius = 0;
