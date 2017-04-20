@@ -12,18 +12,11 @@
 	================================================== -->
 
 	<div class="container">
-    <div class="offset-by-two twelve columns">
-      {% include heading.html %}
-    </div><!-- four columns -->
-	  <div class="offset-by-two eight columns">
+    {% include heading.html %}
+    <div class="twelve columns">
       {{ content }}
     </div>
-    <div class="four columns">
-      {% include navigation.html %}
-    </div>
-    <div class="offset-by-two twelve columns">
-      {% include footer.html %}
-    </div>
+    {% include footer.html %}
   </div><!-- container -->
 
 
