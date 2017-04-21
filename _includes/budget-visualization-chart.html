@@ -1,7 +1,9 @@
 <script>{% include Chart.min.js %}</script>
 <script>{% include budget-visualization.js %}</script>
 <div id="budget-input"></div>
-<canvas id="chart" width="400" height="300"></canvas>
+<div class="canvas-container">
+  <canvas id="chart"></canvas>
+</div>
 <script>
 // FIXME: there's a bug on updates where the chart takes on old values
 // TODO: make animations smoother
