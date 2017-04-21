@@ -10087,7 +10087,7 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 			_elm_lang$html$Html$div,
 			{
 				ctor: '::',
-				_0: _elm_lang$html$Html_Attributes$class('incomeEvent'),
+				_0: _elm_lang$html$Html_Attributes$class('income-event'),
 				_1: {ctor: '[]'}
 			},
 			{
@@ -10114,7 +10114,7 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 									}),
 								_1: {
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('incomeEventName'),
+									_0: _elm_lang$html$Html_Attributes$class('income-event-name'),
 									_1: {ctor: '[]'}
 								}
 							}
@@ -10129,7 +10129,11 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 							ctor: '::',
 							_0: _elm_lang$html$Html_Events$onClick(
 								_krwenholz$budget_visualization$Account$DeleteIncomeEvent(index)),
-							_1: {ctor: '[]'}
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('delete-income-event'),
+								_1: {ctor: '[]'}
+							}
 						},
 						{
 							ctor: '::',
@@ -10171,7 +10175,7 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 														}),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('incomeEventFlatChange'),
+														_0: _elm_lang$html$Html_Attributes$class('income-event-flat-change'),
 														_1: {ctor: '[]'}
 													}
 												}
@@ -10216,7 +10220,7 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 															}),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('incomeEventPercentChange'),
+															_0: _elm_lang$html$Html_Attributes$class('income-event-percent-change'),
 															_1: {ctor: '[]'}
 														}
 													}
@@ -10263,7 +10267,11 @@ var _krwenholz$budget_visualization$Account$incomeEventInputs = function (income
 					{
 						ctor: '::',
 						_0: _elm_lang$html$Html_Events$onClick(_krwenholz$budget_visualization$Account$NewIncomeEvent),
-						_1: {ctor: '[]'}
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('new-income-event'),
+							_1: {ctor: '[]'}
+						}
 					},
 					{
 						ctor: '::',
@@ -10304,7 +10312,7 @@ var _krwenholz$budget_visualization$Account$view = function (account) {
 								}),
 							_1: {
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('accountName'),
+								_0: _elm_lang$html$Html_Attributes$class('account-name'),
 								_1: {ctor: '[]'}
 							}
 						}
@@ -10342,7 +10350,7 @@ var _krwenholz$budget_visualization$Account$view = function (account) {
 												}),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('accountValue'),
+												_0: _elm_lang$html$Html_Attributes$class('account-value'),
 												_1: {ctor: '[]'}
 											}
 										}
@@ -11543,7 +11551,11 @@ var _krwenholz$budget_visualization$BudgetVisualization$accountListItem = F2(
 								ctor: '::',
 								_0: _elm_lang$html$Html_Events$onClick(
 									_krwenholz$budget_visualization$BudgetVisualization$DeleteAccount(index)),
-								_1: {ctor: '[]'}
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('delete-account'),
+									_1: {ctor: '[]'}
+								}
 							},
 							{
 								ctor: '::',
@@ -11570,7 +11582,7 @@ var _krwenholz$budget_visualization$BudgetVisualization$accountsList = function 
 		_elm_lang$html$Html$ul,
 		{
 			ctor: '::',
-			_0: _elm_lang$html$Html_Attributes$class('accountList'),
+			_0: _elm_lang$html$Html_Attributes$class('account-list'),
 			_1: {ctor: '[]'}
 		},
 		_elm_lang$core$Array$toList(
@@ -11596,7 +11608,11 @@ var _krwenholz$budget_visualization$BudgetVisualization$view = function (account
 					{
 						ctor: '::',
 						_0: _elm_lang$html$Html_Events$onClick(_krwenholz$budget_visualization$BudgetVisualization$NewAccount),
-						_1: {ctor: '[]'}
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('new-account'),
+							_1: {ctor: '[]'}
+						}
 					},
 					{
 						ctor: '::',
@@ -11615,7 +11631,7 @@ var _krwenholz$budget_visualization$BudgetVisualization$view = function (account
 								_krwenholz$budget_visualization$BudgetVisualization$copyModelJavascript(accounts)),
 							_1: {
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('saveButton'),
+								_0: _elm_lang$html$Html_Attributes$class('save-button'),
 								_1: {ctor: '[]'}
 							}
 						},
@@ -11639,7 +11655,7 @@ var _krwenholz$budget_visualization$BudgetVisualization$view = function (account
 										_0: _elm_lang$html$Html_Events$onInput(_krwenholz$budget_visualization$BudgetVisualization$RestoreAccounts),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('accountInput'),
+											_0: _elm_lang$html$Html_Attributes$class('account-input'),
 											_1: {ctor: '[]'}
 										}
 									}
