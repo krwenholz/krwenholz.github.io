@@ -11655,7 +11655,7 @@ var _krwenholz$budget_visualization$BudgetVisualization$view = function (account
 										_0: _elm_lang$html$Html_Events$onInput(_krwenholz$budget_visualization$BudgetVisualization$RestoreAccounts),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('account-input'),
+											_0: _elm_lang$html$Html_Attributes$class('restore'),
 											_1: {ctor: '[]'}
 										}
 									}
