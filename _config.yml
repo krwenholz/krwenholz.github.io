@@ -10,3 +10,6 @@ destination: ./_site
 lsi: false
 highlighter: rouge # use syntax highlighting in code
 future: true # do publish future posts
+sass:
+  sass_dir: _sass
+  style: compressed
