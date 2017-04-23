@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: budget_app
 title: Budget Visualization Tool
 tagline:
 ---
