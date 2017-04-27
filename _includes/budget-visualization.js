@@ -10415,7 +10415,7 @@ var _krwenholz$budget_visualization$BudgetMath$showData = function (_p0) {
 var _krwenholz$budget_visualization$BudgetMath$applyEvent = F3(
 	function (initialValue, _p4, currentValue) {
 		var _p5 = _p4;
-		return (currentValue + (initialValue * (1.0e-2 * _p5.percentChange))) + _p5.flatChange;
+		return (currentValue + (initialValue * (1.0e-2 * (_p5.percentChange / 12)))) + _p5.flatChange;
 	});
 var _krwenholz$budget_visualization$BudgetMath$valueAfterEvents = F2(
 	function (incomeEvents, initialValue) {
