@@ -8,34 +8,86 @@
 @import "materialize/components/global";
 @import "materialize/components/typography";
 @import "materialize/components/buttons";
+@import "materialize/components/cards";
+@import "materialize/components/waves";
 
+// TODO: configure buttons with mixins
+// TODO: configure input boxes with sizing
+// TODO: configure lists with spacing and no bullets and font size
+// TODO: configure labels with font size and color
+// TODO: configure divs with color/wells
 
-// div.income-event {
-// }
-// income-event-name {
-// }
-// delete-income-event {
-// }
-// income-event-flat-change {
-// }
-// income-event-percent-change {
-// }
-// new-income-event {
-// }
-// account {
-// }
-// account-name {
-// }
-// account-value {
-// }
-// delete-account {
-// }
-// account-list {
-// }
-// new-account {
-// }
-// save-button {
-// }
-// account-input {
-// }
+div.budget-input {
+}
 
+div.account-list {
+  ul {
+  }
+}
+
+div.account {
+  @extend .card-panel;
+  @extend .blue-grey;
+  @extend .lighten-4;
+}
+
+div.income-event {
+  @extend .card-panel;
+  @extend .blue-grey;
+  @extend .lighten-5;
+}
+
+input.income-event-name {
+}
+
+input.income-event-flat-change {
+}
+
+input.income-event-percent-change {
+}
+
+input.account-name {
+}
+
+input.account-value {
+}
+
+label {
+}
+
+@mixin add-or-remove-button() {
+  @extend .btn-flat;
+  @extend .waves-effect;
+  @extend .waves-light;
+}
+
+button.new-account {
+  @include add-or-remove-button();
+  @extend .green;
+  @extend .lighten-2;
+}
+
+button.delete-account {
+  @include add-or-remove-button();
+  @extend .red;
+  @extend .lighten-2;
+}
+
+button.new-income-event {
+  @include add-or-remove-button();
+  @extend .green;
+  @extend .lighten-3;
+}
+
+button.delete-income-event {
+  @include add-or-remove-button();
+  @extend .red;
+  @extend .lighten-3;
+}
+
+button.save-button {
+  @extend .waves-effect;
+  @extend .waves-light;
+  @extend .blue;
+  @extend .lighten-3;
+}
