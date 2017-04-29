@@ -10347,49 +10347,49 @@ var _krwenholz$budget_visualization$Account$view = function (account) {
 					_elm_lang$html$Html$div,
 					{
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$class('input-field'),
+						_0: _elm_lang$html$Html_Attributes$class('input-field inline'),
 						_1: {ctor: '[]'}
 					},
 					{
 						ctor: '::',
 						_0: A2(
-							_elm_lang$html$Html$label,
-							{ctor: '[]'},
+							_elm_lang$html$Html$input,
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html$text('$'),
-								_1: {ctor: '[]'}
-							}),
+								_0: _elm_lang$html$Html_Attributes$type_('number'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$placeholder(
+										_elm_lang$core$Basics$toString(account.initialValue)),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Events$onInput(
+											function (initialValue) {
+												return _krwenholz$budget_visualization$Account$UpdateAccount(
+													{
+														name: account.name,
+														initialValue: _krwenholz$budget_visualization$Account$readFloat(initialValue)
+													});
+											}),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('account-value'),
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							},
+							{ctor: '[]'}),
 						_1: {
 							ctor: '::',
 							_0: A2(
-								_elm_lang$html$Html$input,
+								_elm_lang$html$Html$label,
+								{ctor: '[]'},
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$type_('number'),
-									_1: {
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$placeholder(
-											_elm_lang$core$Basics$toString(account.initialValue)),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Events$onInput(
-												function (initialValue) {
-													return _krwenholz$budget_visualization$Account$UpdateAccount(
-														{
-															name: account.name,
-															initialValue: _krwenholz$budget_visualization$Account$readFloat(initialValue)
-														});
-												}),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('account-value'),
-												_1: {ctor: '[]'}
-											}
-										}
-									}
-								},
-								{ctor: '[]'}),
+									_0: _elm_lang$html$Html$text('$'),
+									_1: {ctor: '[]'}
+								}),
 							_1: {ctor: '[]'}
 						}
 					}),

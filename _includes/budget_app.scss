@@ -10,12 +10,16 @@
 @import "materialize/components/buttons";
 @import "materialize/components/cards";
 @import "materialize/components/waves";
+@import "materialize/components/forms/forms";
+@import "materialize/components/forms/input-fields";
 
 // TODO: configure buttons with mixins
 // TODO: configure input boxes with sizing
 // TODO: configure lists with spacing and no bullets and font size
 // TODO: configure labels with font size and color
 // TODO: configure divs with color/wells
+$input-focus-color: color("grey", "darken-4");
+$help-color: color("grey", "darken-2");
 
 div.budget-input {
 }
@@ -38,6 +42,7 @@ div.income-event {
 }
 
 input.income-event-name {
+  color: color("grey", "lighten-4");
 }
 
 input.income-event-flat-change {
@@ -52,7 +57,11 @@ input.account-name {
 input.account-value {
 }
 
-label {
+.input-field {
+  label {
+    font: 2em "Roboto", sans-serif;
+    color: $help-color;
+  }
 }
 
 @mixin add-or-remove-button() {
@@ -90,4 +99,18 @@ button.save-button {
   @extend .waves-light;
   @extend .blue;
   @extend .lighten-3;
+}
+
+/* Placeholder styles */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $help-color;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $help-color;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $help-color;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $help-color;
 }
