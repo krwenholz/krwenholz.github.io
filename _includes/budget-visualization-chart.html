@@ -61,8 +61,6 @@ async function vivifyChart() {
   chartHash = JSON.stringify(chartData);
   while (true) {
     await sleep(3000);
-    console.log(currentHash)
-    console.log(chartHash)
     if (chartHash === currentHash) {
       continue;
     }
