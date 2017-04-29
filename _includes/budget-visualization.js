@@ -10093,51 +10093,62 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 			{
 				ctor: '::',
 				_0: A2(
-					_elm_lang$html$Html$input,
+					_elm_lang$html$Html$button,
 					{
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$type_('text'),
+						_0: _elm_lang$html$Html_Events$onClick(
+							_krwenholz$budget_visualization$Account$DeleteIncomeEvent(index)),
 						_1: {
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$placeholder(incomeEvent.name),
-							_1: {
-								ctor: '::',
-								_0: _elm_lang$html$Html_Events$onInput(
-									function (newName) {
-										return _krwenholz$budget_visualization$Account$UpdateIncomeEvent(
-											A2(
-												_krwenholz$budget_visualization$Account$UpdateIncomeEventMsg,
-												index,
-												_elm_lang$core$Native_Utils.update(
-													incomeEvent,
-													{name: newName})));
-									}),
-								_1: {
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('income-event-name'),
-									_1: {ctor: '[]'}
-								}
-							}
+							_0: _elm_lang$html$Html_Attributes$class('delete-income-event'),
+							_1: {ctor: '[]'}
 						}
 					},
-					{ctor: '[]'}),
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('-'),
+						_1: {ctor: '[]'}
+					}),
 				_1: {
 					ctor: '::',
 					_0: A2(
-						_elm_lang$html$Html$button,
+						_elm_lang$html$Html$div,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Events$onClick(
-								_krwenholz$budget_visualization$Account$DeleteIncomeEvent(index)),
-							_1: {
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('delete-income-event'),
-								_1: {ctor: '[]'}
-							}
+							_0: _elm_lang$html$Html_Attributes$class('input-field'),
+							_1: {ctor: '[]'}
 						},
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html$text('-'),
+							_0: A2(
+								_elm_lang$html$Html$input,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$type_('text'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$placeholder(incomeEvent.name),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Events$onInput(
+												function (newName) {
+													return _krwenholz$budget_visualization$Account$UpdateIncomeEvent(
+														A2(
+															_krwenholz$budget_visualization$Account$UpdateIncomeEventMsg,
+															index,
+															_elm_lang$core$Native_Utils.update(
+																incomeEvent,
+																{name: newName})));
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('income-event-name'),
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								},
+								{ctor: '[]'}),
 							_1: {ctor: '[]'}
 						}),
 					_1: {
@@ -10310,11 +10321,7 @@ var _krwenholz$budget_visualization$Account$UpdateAccount = function (a) {
 var _krwenholz$budget_visualization$Account$view = function (account) {
 	return A2(
 		_elm_lang$html$Html$div,
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html_Attributes$class('account'),
-			_1: {ctor: '[]'}
-		},
+		{ctor: '[]'},
 		{
 			ctor: '::',
 			_0: A2(
@@ -11575,7 +11582,11 @@ var _krwenholz$budget_visualization$BudgetVisualization$accountListItem = F2(
 				ctor: '::',
 				_0: A2(
 					_elm_lang$html$Html$div,
-					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('account'),
+						_1: {ctor: '[]'}
+					},
 					{
 						ctor: '::',
 						_0: A2(

@@ -42,7 +42,6 @@ div.income-event {
 }
 
 input.income-event-name {
-  color: color("grey", "lighten-4");
 }
 
 input.income-event-flat-change {
@@ -65,7 +64,7 @@ input.account-value {
 }
 
 @mixin add-or-remove-button() {
-  @extend .btn-flat;
+  @extend .btn-floating;
   @extend .waves-effect;
   @extend .waves-light;
 }
@@ -99,6 +98,8 @@ button.save-button {
   @extend .waves-light;
   @extend .blue;
   @extend .lighten-3;
+  @extend .right;
+  font-size: 1rem;
 }
 
 /* Placeholder styles */
