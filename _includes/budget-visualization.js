@@ -10156,45 +10156,45 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 									{ctor: '[]'},
 									{
 										ctor: '::',
-										_0: _elm_lang$html$Html$text('Flat monthly change: '),
-										_1: {
+										_0: _elm_lang$html$Html$text('Flat monthly change'),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$input,
+										{
 											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$input,
-												{
+											_0: _elm_lang$html$Html_Attributes$type_('number'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$placeholder(
+													_elm_lang$core$Basics$toString(incomeEvent.flatChange)),
+												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$type_('number'),
+													_0: _elm_lang$html$Html_Events$onInput(
+														function (change) {
+															return _krwenholz$budget_visualization$Account$UpdateIncomeEvent(
+																A2(
+																	_krwenholz$budget_visualization$Account$UpdateIncomeEventMsg,
+																	index,
+																	_elm_lang$core$Native_Utils.update(
+																		incomeEvent,
+																		{
+																			flatChange: _krwenholz$budget_visualization$Account$readFloat(change)
+																		})));
+														}),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$placeholder(
-															_elm_lang$core$Basics$toString(incomeEvent.flatChange)),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html_Events$onInput(
-																function (change) {
-																	return _krwenholz$budget_visualization$Account$UpdateIncomeEvent(
-																		A2(
-																			_krwenholz$budget_visualization$Account$UpdateIncomeEventMsg,
-																			index,
-																			_elm_lang$core$Native_Utils.update(
-																				incomeEvent,
-																				{
-																					flatChange: _krwenholz$budget_visualization$Account$readFloat(change)
-																				})));
-																}),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('income-event-flat-change'),
-																_1: {ctor: '[]'}
-															}
-														}
+														_0: _elm_lang$html$Html_Attributes$class('income-event-flat-change'),
+														_1: {ctor: '[]'}
 													}
-												},
-												{ctor: '[]'}),
-											_1: {ctor: '[]'}
-										}
-									}),
-								_1: {ctor: '[]'}
+												}
+											}
+										},
+										{ctor: '[]'}),
+									_1: {ctor: '[]'}
+								}
 							}),
 						_1: {
 							ctor: '::',
@@ -10212,45 +10212,45 @@ var _krwenholz$budget_visualization$Account$incomeEventInput = F2(
 										{ctor: '[]'},
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html$text('Percent yearly change: '),
-											_1: {
+											_0: _elm_lang$html$Html$text('Percent yearly change'),
+											_1: {ctor: '[]'}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$input,
+											{
 												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$input,
-													{
+												_0: _elm_lang$html$Html_Attributes$type_('number'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$placeholder(
+														_elm_lang$core$Basics$toString(incomeEvent.percentChange)),
+													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$type_('number'),
+														_0: _elm_lang$html$Html_Events$onInput(
+															function (change) {
+																return _krwenholz$budget_visualization$Account$UpdateIncomeEvent(
+																	A2(
+																		_krwenholz$budget_visualization$Account$UpdateIncomeEventMsg,
+																		index,
+																		_elm_lang$core$Native_Utils.update(
+																			incomeEvent,
+																			{
+																				percentChange: _krwenholz$budget_visualization$Account$readFloat(change)
+																			})));
+															}),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$placeholder(
-																_elm_lang$core$Basics$toString(incomeEvent.percentChange)),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Events$onInput(
-																	function (change) {
-																		return _krwenholz$budget_visualization$Account$UpdateIncomeEvent(
-																			A2(
-																				_krwenholz$budget_visualization$Account$UpdateIncomeEventMsg,
-																				index,
-																				_elm_lang$core$Native_Utils.update(
-																					incomeEvent,
-																					{
-																						percentChange: _krwenholz$budget_visualization$Account$readFloat(change)
-																					})));
-																	}),
-																_1: {
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$class('income-event-percent-change'),
-																	_1: {ctor: '[]'}
-																}
-															}
+															_0: _elm_lang$html$Html_Attributes$class('income-event-percent-change'),
+															_1: {ctor: '[]'}
 														}
-													},
-													{ctor: '[]'}),
-												_1: {ctor: '[]'}
-											}
-										}),
-									_1: {ctor: '[]'}
+													}
+												}
+											},
+											{ctor: '[]'}),
+										_1: {ctor: '[]'}
+									}
 								}),
 							_1: {ctor: '[]'}
 						}
@@ -10358,40 +10358,40 @@ var _krwenholz$budget_visualization$Account$view = function (account) {
 							{
 								ctor: '::',
 								_0: _elm_lang$html$Html$text('$'),
-								_1: {
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$input,
+								{
 									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$input,
-										{
+									_0: _elm_lang$html$Html_Attributes$type_('number'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$placeholder(
+											_elm_lang$core$Basics$toString(account.initialValue)),
+										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$type_('number'),
+											_0: _elm_lang$html$Html_Events$onInput(
+												function (initialValue) {
+													return _krwenholz$budget_visualization$Account$UpdateAccount(
+														{
+															name: account.name,
+															initialValue: _krwenholz$budget_visualization$Account$readFloat(initialValue)
+														});
+												}),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$placeholder(
-													_elm_lang$core$Basics$toString(account.initialValue)),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Events$onInput(
-														function (initialValue) {
-															return _krwenholz$budget_visualization$Account$UpdateAccount(
-																{
-																	name: account.name,
-																	initialValue: _krwenholz$budget_visualization$Account$readFloat(initialValue)
-																});
-														}),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('account-value'),
-														_1: {ctor: '[]'}
-													}
-												}
+												_0: _elm_lang$html$Html_Attributes$class('account-value'),
+												_1: {ctor: '[]'}
 											}
-										},
-										{ctor: '[]'}),
-									_1: {ctor: '[]'}
-								}
-							}),
-						_1: {ctor: '[]'}
+										}
+									}
+								},
+								{ctor: '[]'}),
+							_1: {ctor: '[]'}
+						}
 					}),
 				_1: {
 					ctor: '::',
