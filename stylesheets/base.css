@@ -51,6 +51,13 @@ a.button {
   font-weight: bold;
 }
 
+/* Don't color headers*/
+h1 a { color: #222; }
+h2 a { color: #222; }
+h3 a { color: #222; }
+h4 a { color: #222; }
+h5 a { color: #222; }
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
