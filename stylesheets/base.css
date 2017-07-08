@@ -10,6 +10,7 @@ body {
 
 p, body {
   font-family: 'Crimson Text', Georgia, Times, serif;
+  font-size: 1.4em;
 }
 
 code {
