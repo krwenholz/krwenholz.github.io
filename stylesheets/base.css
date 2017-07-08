@@ -15,3 +15,33 @@ p, body {
 code {
   font-family: 'Inconsolata', monospace;
 }
+
+hr {
+  border: solid #333333;
+  border-width: 3px 0 0;
+  clear: both;
+  margin: 10px 0 10px;
+  height: 1px;
+}
+
+a, a:visited {
+  color: #333;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+
+p a, p a:visited {
+  line-height: inherit;
+  text-decoration: underline;
+}
+
+ul.navigation li a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
