@@ -8,7 +8,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-p, ul, body {
+p, ul, .button, body {
   font-family: 'Crimson Text', Georgia, Times, serif;
   font-size: 1.4em;
 }
