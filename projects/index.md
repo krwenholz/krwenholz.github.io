@@ -7,6 +7,20 @@ tagline:
 These are the pieces of work I'm proud of and can be published for you to check
 out.
 
+## Wood working/gardening/constructing
+I like working with my hands, learning, and designing, so I build things in
+my spare time. You can read about one of them
+[here](http://www.krwenholz.com/2015/10/31/platform-bed). I also do my best
+to keep a Google Photos album with all of the recent creations
+[here](https://goo.gl/photos/4AnXJGLgpWe1NMvb8).
+
+## Budget visualization
+I needed a tool for talking about money with my wife. Turns out there wasn't
+anything simple enough to talk in terms of buckets but sophisticated enough
+to model interest and contributions. My solution was to build something myself
+with [Elm](http://elm-lang.org/). I think
+[the result](http://www.krwenholz.com/budget_visualization) is pretty neat.
+
 ## Honors Senior Thesis
 4 years in the making, I worked with support vector machines to predict the
 tardiness of ferries in the Pacific Northwest. This is the capstone to my work
