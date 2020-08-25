@@ -1,0 +1,19 @@
+on: push
+name: Build and deploy on push
+jobs:
+  build:
+    name: Do it!
+    steps:
+      - uses: actions/checkout@v1
+      - name: zola build
+        run: |
+          curl -s -L https://github.com/getzola/zola/releases/download/v0.9.0/zola-v0.9.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
+          zola build
+      - name: index build
+        uses: docker://tinysearch/cli
+        run: tinysearch public/search_index.en.js
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public

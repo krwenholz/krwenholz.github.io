@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  {% set title = section.title %}
+  {% set description = section.description %}
+  {% include "_includes/head.html" %}
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="container">
+    <div class="offset-by-two eight columns">
+      {% include "_includes/heading.html" %}
+      {% include "_includes/navigation.html" %}
+      <hr />
+
+      {{ section.content | safe }}
+
+      <h2>My Posts (however few they may be)</h2>
+      <h3>TODO(kyle): Search for posts</h3>
+    </div>
+  </div><!-- container -->
+
+</body>
+</html>

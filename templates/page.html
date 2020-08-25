@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  {% set title = page.title %}
+  {% set description = page.description %}
+  {% include "_includes/head.html" %}
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="container">
+    <div class="offset-by-two eight columns">
+      {% include "_includes/heading.html" %}
+      {% include "_includes/navigation.html" %}
+      <hr />
+      {{ page.content | safe}}
+      {% include "_includes/footer.html" %}
+    </div>
+  </div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

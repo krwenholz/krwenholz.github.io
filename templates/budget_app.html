@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  {% include "_includes/head.html" %}
+  <style>
+   {{ styles | scssify }}
+  </style>
+
+  <script src="/javascript/jquery-3.2.1.min.js"></script>
+  <script src="/javascript/materialize.min.js"></script>
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="container">
+    {% include "_includes/heading.html" %}
+    <div class="twelve columns">
+      {{ content }}
+    </div>
+    {% include "_includes/footer.html" %}
+  </div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

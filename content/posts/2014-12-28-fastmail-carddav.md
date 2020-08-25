@@ -1,13 +1,10 @@
----
-layout: post
-title: "CardDav with Fastmail"
-description: "Setting up and loving CardDav with Fastmail"
-category: 
-tags: []
----
++++
+title = "CardDav with Fastmail"
+description = "Setting up and loving CardDav with Fastmail"
++++
 
 So you heard about Fastmail's [CardDav beta](http://blog.fastmail.com/2014/12/22/carddav-beta-release/)?
-Finding their [setup page](https://beta.fastmail.com/help/clients/applist.html) lacking? 
+Finding their [setup page](https://beta.fastmail.com/help/clients/applist.html) lacking?
 
 So did I!
 

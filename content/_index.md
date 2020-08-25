@@ -1,8 +1,6 @@
----
-layout: base
-title: One step closer to absurdity
-tagline:
----
++++
+title = "One step closer to absurdity"
++++
 
 Hi there!
 
@@ -25,12 +23,3 @@ interviewing and hiring tools, one byte at a time.
 You can check out some of my publicly visible projects [here](/projects)
 and read more about my work history in my handy-dandy
 [resume](https://github.com/krwenholz/Resume/blob/master/resume.pdf).
-
-## My Posts (however few they may be) ##
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
