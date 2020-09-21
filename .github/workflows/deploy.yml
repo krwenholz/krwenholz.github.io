@@ -1,8 +1,9 @@
 on: push
-name: Build and deploy on push
+name: Publish
 jobs:
   build:
     name: Do it!
+    runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v1
       - name: zola build
@@ -11,7 +12,9 @@ jobs:
           zola build
       - name: index build
         uses: docker://tinysearch/cli
-        run: tinysearch public/search_index.en.js
+        with:
+          entrypoint: tinysearch
+          args: --optimize --path public/search public/search/index.html
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

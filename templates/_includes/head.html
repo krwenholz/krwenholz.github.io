@@ -5,6 +5,19 @@
 <meta name="description" content="{{ description }}" />
 <meta name="author" content="Kyle R. Wenholz" />
 
+<!-- Search import
+  ================================================== -->
+<script type="module">
+  import { search, default as init } from "./tinysearch_engine.js";
+  window.search = search;
+
+  async function run() {
+    await init("./tinysearch_engine_bg.wasm");
+  }
+
+  run();
+</script>
+
 <!-- Mobile Specific Metas
   ================================================== -->
 <meta

@@ -1,0 +1,8 @@
+{% set top_section = get_section(path="_index.md") %} {% set posts_section =
+get_section(path="posts/_index.md") %} {% set projects_section =
+get_section(path="projects/_index.md") %}[ {%- for post in top_section.pages |
+concat(with=posts_section.pages) | concat(with=projects_section.pages) -%} {% if
+not post.draft %} { "title": {{ post.title | default(value=post.path) |
+striptags | json_encode | safe }}, "url": {{ post.permalink | json_encode | safe
+}}, "body": {{ post.content | default(value="") | striptags | json_encode | safe
+}} }{% if not loop.last %},{% endif %} {% endif %} {%- endfor -%} ]
