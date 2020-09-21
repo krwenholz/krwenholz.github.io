@@ -8,11 +8,11 @@
 <!-- Search import
   ================================================== -->
 <script type="module">
-  import { search, default as init } from "./tinysearch_engine.js";
+  import { search, default as init } from "/search/tinysearch_engine.js";
   window.search = search;
 
   async function run() {
-    await init("./tinysearch_engine_bg.wasm");
+    await init("/search/tinysearch_engine_bg.wasm");
   }
 
   run();
