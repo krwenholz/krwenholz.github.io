@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+  
+  
+  <!-- Basic Page Needs
+  ================================================== -->
+<meta charset="utf-8" />
+<title>Standing up in my cube | Kyle R. Wenholz</title>
+<meta name="description" content="Brief thoughts on a stand-up desk" />
+<meta name="author" content="Kyle R. Wenholz" />
+
+<!-- Search import
+  ================================================== -->
+<script type="module">
+  import { search, default as init } from "./tinysearch_engine.js";
+  window.search = search;
+
+  async function run() {
+    await init("./tinysearch_engine_bg.wasm");
+  }
+
+  run();
+</script>
+
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1"
+/>
+
+<!-- CSS
+  ================================================== -->
+<link rel="stylesheet" href="/css/base.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+
+<link
+  href="http://fonts.googleapis.com/css?family=Crimson+Text"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="http://fonts.googleapis.com/css?family=Raleway:100"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- CSS Media Fix
+  ================================================== -->
+<script src="/javascript/respond.min.js"></script>
+
+<!-- Favicons
+  ================================================== -->
+<link rel="shortcut icon" href="/favicon.ico" />
+
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="container">
+    <div class="offset-by-two eight columns">
+      <image src="/images/rocketship.png" class="u-pull-left"></i>
+<h2><a href="/">Kyle R. Wenholz</a></h2>
+<p>"Hope is the thing with feathers" - Emily Dickinson</p>
+<hr />
+
+<script>
+  // And afterwards we can use all the functionality defined in wasm.
+  const doSearch = () => {
+    let value = document.getElementById("demo").value;
+    const arr = window.search(value, 10);
+    let ul = document.getElementById("results");
+    ul.innerHTML = "";
+
+    for (i = 0; i < arr.length; i++) {
+      var li = document.createElement("li");
+
+      let elem = arr[i];
+      let elemlink = document.createElement('a');
+      elemlink.innerHTML = elem[0];
+      elemlink.setAttribute('href', elem[1]);
+      li.appendChild(elemlink);
+
+      ul.appendChild(li);
+    }
+  }
+</script>
+
+  <h2>Search:</h2>
+  <input type="text" id="demo" onkeyup="doSearch()">
+  <h2>Results:</h2>
+  <ul id="results">
+
+      <div class="navigation">
+  <a href="/" class="button">Home</a>
+  <a href="/projects/" class="button">Projects</a>
+  <a href="/resources/" class="button">Fun resources</a>
+</div>
+
+      <hr />
+      <p>I know it's a fad by now, but I just switched over to a stand-up desk.</p>
+<p>After getting into the groove of things, my job had me sitting down most of
+the time. It only took about two weeks of this for my back to begin hurting
+and my posture to crumble into chaos. I couldn't stand it! So I stood up ;)</p>
+<p>Some research, including a few prompts from <a href="http://lifehacker.com">Lifehacker</a>,
+led me to consider the idea of a standing desk. I didn't want to commit to
+one of the incredibly expensive, but very nice, desks you find through
+conventional shopping means. Not to be deterred, the cheap and effective
+solution eventually came across my screen: <a href="http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html">Ikea</a>.</p>
+<p>Nederkoorn's great work led me to an awesome solution. So I made the plunge,
+for less money than I ever expected to spend making my cube awesome.</p>
+<p>Now, it's two days, sore feet, tired legs, and only $20 later. Do I like it?
+Yeah pretty much. I think all things take time to appreciate, and this
+probably will too. For now, my back doesn't hurt, and my cubicle looks
+awesome. I'll have to reevaluate in a month to really have a valid opinion.</p>
+
+      <hr />
+<div class="connections" style="text-align:right;">
+  <a href="mailto:kyle@krwenholz.com" style="font-size: 24px;">
+    <i class="icon-envelope"></i>
+  </a>
+  <a href="http://github.com/krwenholz" style="font-size: 24px;">
+    <i class="icon-github"></i>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/kyle-wenholz-3b591087/"
+    style="font-size: 24px;"
+  >
+    <i class="icon-linkedin"></i>
+  </a>
+</div>
+<p class="jekyll" style="text-align:right;">
+  Powered by
+  <a class="with-color" href="https://getzola.org/">Jekyll</a>,
+  <a class="with-color" href="http://fortawesome.github.com/Font-Awesome/">
+    Font Awesome</a
+  >, and
+  <a class="with-color" href="http://getskeleton.com"> Skeleton</a>.<br />
+</p>
+
+    </div>
+  </div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
