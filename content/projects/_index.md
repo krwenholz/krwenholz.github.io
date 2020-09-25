@@ -13,13 +13,19 @@ my spare time. You can read about one of them
 to keep a Google Photos album with all of the recent creations
 [here](https://goo.gl/photos/4AnXJGLgpWe1NMvb8).
 
+## Wood working/gardening/constructing
+
+I like working with my friends and reading great fiction. We built a site for that.
+Check out [Turning Point Tales](https://turningpointtales.com) for a great time. We sourced
+most of the works from students at University of Puget Sound. How neat is that?
+
 ## Budget visualization
 
 I needed a tool for talking about money with my wife. Turns out there wasn't
 anything simple enough to talk in terms of buckets but sophisticated enough
 to model interest and contributions. My solution was to build something myself
 with [Elm](http://elm-lang.org/). I think
-[the result](http://www.krwenholz.com/budget_visualization) is pretty neat.
+[the result](http://github.com/krwenholz/budget-visualization) was pretty neat.
 
 ## Honors Senior Thesis
 

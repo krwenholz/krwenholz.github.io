@@ -18,37 +18,28 @@
   run();
 </script>
 
-<!-- Mobile Specific Metas
-  ================================================== -->
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, maximum-scale=1"
-/>
+<script>
+  // And afterwards we can use all the functionality defined in wasm.
+  const doSearch = () => {
+    let value = document.getElementById("demo").value;
+    const arr = window.search(value, 10);
+    let ul = document.getElementById("results");
+    ul.innerHTML = "";
 
-<!-- CSS
-  ================================================== -->
-<link rel="stylesheet" href="/css/base.css" />
-<link rel="stylesheet" href="/css/font-awesome.min.css" />
+    for (i = 0; i < arr.length; i++) {
+      var li = document.createElement("li");
 
-<link
-  href="http://fonts.googleapis.com/css?family=Crimson+Text"
-  rel="stylesheet"
-  type="text/css"
-/>
-<link
-  href="http://fonts.googleapis.com/css?family=Raleway:100"
-  rel="stylesheet"
-  type="text/css"
-/>
+      let elem = arr[i];
+      let elemlink = document.createElement("a");
+      elemlink.innerHTML = elem[0];
+      elemlink.setAttribute("href", elem[1]);
+      li.appendChild(elemlink);
 
-<!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+      ul.appendChild(li);
+    }
+  };
+</script>
 
-<!-- CSS Media Fix
-  ================================================== -->
-<script src="/javascript/respond.min.js"></script>
+<link href="base.css" rel="stylesheet" type="text/css" />
 
-<!-- Favicons
-  ================================================== -->
 <link rel="shortcut icon" href="/favicon.ico" />

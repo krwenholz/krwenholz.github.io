@@ -1,32 +1,12 @@
-<image src="/images/rocketship.png" class="u-pull-left"></i>
+<image src="/images/rocketship.png" />
 <h2><a href="/">Kyle R. Wenholz</a></h2>
-<p>"Hope is the thing with feathers" - Emily Dickinson</p>
+<p>
+  "We are waves of the same sea, leaves of the same tree, flowers of the same
+  garden." - Seneca
+</p>
 <hr />
 
-<script>
-  // And afterwards we can use all the functionality defined in wasm.
-  const doSearch = () => {
-    let value = document.getElementById("demo").value;
-    const arr = window.search(value, 10);
-    let ul = document.getElementById("results");
-    ul.innerHTML = "";
-
-    for (i = 0; i < arr.length; i++) {
-      var li = document.createElement("li");
-
-      let elem = arr[i];
-      let elemlink = document.createElement('a');
-      elemlink.innerHTML = elem[0];
-      elemlink.setAttribute('href', elem[1]);
-      li.appendChild(elemlink);
-
-      ul.appendChild(li);
-    }
-  }
-</script>
-
-<h2>Search:</h2>
-<input type="text" id="demo" onkeyup="doSearch()">
+<h2><svg class="feather"><use xlink:href="feather-sprite.svg#search"></svg> Search:</h2>
+<input type="text" id="demo" onkeyup="doSearch()" />
 <h2>Results:</h2>
-<ul id="results">
-</ul>
+<ul id="results"></ul>
