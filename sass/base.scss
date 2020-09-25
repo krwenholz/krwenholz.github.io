@@ -1,3 +1,32 @@
+@import "base16-default-dark";
+
+/*
+ * Bootstrap and overrides
+ */
+$font-family-monospace: Inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base: $font-family-monospace !default;
+
+$primary: $base08;
+$secondary: $base09;
+$success: $base0B;
+$info: $base0C;
+$warning: $base0E;
+$danger: $base0F;
+$light: $base06;
+$dark: $base02;
+
+$body-bg: $base00;
+$body-color: $base05;
+
+$border-color: $base02;
+
+$component-active-color: $base07;
+
+@import "bootstrap/scss/bootstrap";
+
+/*
+ * My CSS!
+ */
 .feather {
     width: 24px;
     height: 24px;
