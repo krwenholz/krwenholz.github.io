@@ -12,99 +12,79 @@
 <!-- Search import
   ================================================== -->
 <script type="module">
-  import { search, default as init } from "./tinysearch_engine.js";
+  import { search, default as init } from "/search/tinysearch_engine.js";
   window.search = search;
 
   async function run() {
-    await init("./tinysearch_engine_bg.wasm");
+    await init("/search/tinysearch_engine_bg.wasm");
   }
 
   run();
 </script>
 
-<!-- Mobile Specific Metas
-  ================================================== -->
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, maximum-scale=1"
-/>
-
-<!-- CSS
-  ================================================== -->
-<link rel="stylesheet" href="/css/base.css" />
-<link rel="stylesheet" href="/css/font-awesome.min.css" />
-
-<link
-  href="http://fonts.googleapis.com/css?family=Crimson+Text"
-  rel="stylesheet"
-  type="text/css"
-/>
-<link
-  href="http://fonts.googleapis.com/css?family=Raleway:100"
-  rel="stylesheet"
-  type="text/css"
-/>
-
-<!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<!-- CSS Media Fix
-  ================================================== -->
-<script src="/javascript/respond.min.js"></script>
-
-<!-- Favicons
-  ================================================== -->
-<link rel="shortcut icon" href="/favicon.ico" />
-
-</head>
-<body>
-
-	<!-- Primary Page Layout
-	================================================== -->
-
-	<div class="container">
-    <div class="offset-by-two eight columns">
-      <image src="/images/rocketship.png" class="u-pull-left"></i>
-<h2><a href="/">Kyle R. Wenholz</a></h2>
-<p>"Hope is the thing with feathers" - Emily Dickinson</p>
-<hr />
-
 <script>
-  // And afterwards we can use all the functionality defined in wasm.
   const doSearch = () => {
     let value = document.getElementById("demo").value;
     const arr = window.search(value, 10);
-    let ul = document.getElementById("results");
+    let ul = document.getElementById("search_results");
     ul.innerHTML = "";
 
     for (i = 0; i < arr.length; i++) {
       var li = document.createElement("li");
 
       let elem = arr[i];
-      let elemlink = document.createElement('a');
+      let elemlink = document.createElement("a");
       elemlink.innerHTML = elem[0];
-      elemlink.setAttribute('href', elem[1]);
+      elemlink.setAttribute("href", elem[1]);
       li.appendChild(elemlink);
 
       ul.appendChild(li);
     }
-  }
+  };
 </script>
 
-  <h2>Search:</h2>
-  <input type="text" id="demo" onkeyup="doSearch()">
-  <h2>Results:</h2>
-  <ul id="results">
+<link href="/css?family=Inconsolata" rel="stylesheet" type="text/css" />
 
-      <div class="navigation">
-  <a href="/" class="button">Home</a>
-  <a href="/projects/" class="button">Projects</a>
-  <a href="/resources/" class="button">Fun resources</a>
+<link href="/base.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+
+</head>
+<body>
+<div class="container">
+  <div class="row mt-2">
+  <div class="col">
+    <ul
+      class="nav nav-pills justify-content-between align-items-center bg-dark p-1"
+    >
+      <li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="/projects/" class="nav-link">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="/resources/" class="nav-link">Fun resources</a>
+      </li>
+      <li class="nav-item pr-5">
+        <input
+          type="text"
+          onchange="doSearch()"
+          class="form-control mr-sm-2"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <ul id="search_results"></ul>
+      </li>
+    </ul>
+  </div>
 </div>
 
-      <hr />
+<hr />
 
+
+  <div class="row">
+    <div class="col">
       <p>These are the pieces of work I'm proud of and can be published for you to check
 out.</p>
 <h2 id="wood-working-gardening-constructing">Wood working/gardening/constructing</h2>
@@ -113,21 +93,25 @@ my spare time. You can read about one of them
 <a href="http://www.krwenholz.com/2015/10/31/platform-bed">here</a>. I also do my best
 to keep a Google Photos album with all of the recent creations
 <a href="https://goo.gl/photos/4AnXJGLgpWe1NMvb8">here</a>.</p>
+<h2 id="turning-point-tales">Turning Point Tales</h2>
+<p>I like working with my friends and reading great fiction. We built a site for that.
+Check out <a href="https://turningpointtales.com">Turning Point Tales</a> for a great time. We sourced
+most of the works from students at University of Puget Sound. How neat is that?</p>
 <h2 id="budget-visualization">Budget visualization</h2>
 <p>I needed a tool for talking about money with my wife. Turns out there wasn't
 anything simple enough to talk in terms of buckets but sophisticated enough
 to model interest and contributions. My solution was to build something myself
 with <a href="http://elm-lang.org/">Elm</a>. I think
-<a href="http://www.krwenholz.com/budget_visualization">the result</a> is pretty neat.</p>
+<a href="http://github.com/krwenholz/budget-visualization">the result</a> was pretty neat.</p>
 <h2 id="honors-senior-thesis">Honors Senior Thesis</h2>
 <p>4 years in the making, I worked with support vector machines to predict the
 tardiness of ferries in the Pacific Northwest. This is the capstone to my work
 in the University of Puget Sound's Honors Program.</p>
-<h3 id="presentation">Presentation</h3>
+<h4 id="presentation">Presentation</h4>
 <p>This is the <a href="https://github.com/krwenholz/FerryTimeliness/tree/master/Thesis/Presentation">presentation</a>
 I gave <em>after</em> writing my paper. You can download the little guy and then
 just open the index in your modern web browser.</p>
-<h3 id="paper">Paper</h3>
+<h4 id="paper">Paper</h4>
 <p>The Honors Program really wanted a paper, so
 <a href="https://github.com/krwenholz/FerryTimeliness/tree/master/Thesis/Paper">this</a>
 is it. Don't make me say it, but I'm fairly proud of how this worked out.</p>
@@ -142,11 +126,9 @@ now) and as a proof-of-concept. This is likely one of my favorite projects to
 have ever worked on. Check out
 <a href="https://github.com/krwenholz/SS-Collection">the code</a>.</p>
 
-
-      <h2>My Posts (however few they may be)</h2>
-      <h3>TODO(kyle): Search for posts</h3>
     </div>
-  </div><!-- container -->
-
+  </div>
+</div>
 </body>
 </html>
+
