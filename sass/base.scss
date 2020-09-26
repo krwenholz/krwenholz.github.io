@@ -1,4 +1,4 @@
-@import "base16-default-dark";
+@import "base16-default-light";
 
 /*
  * Bootstrap and overrides
@@ -22,17 +22,21 @@ $border-color: $base02;
 
 $component-active-color: $base07;
 
+$container-max-widths: (sm: 540px, md: 720px, lg: 720px, xl: 720px);
+
+$sizes: (1: 1%, 5: 5%, 10: 10%, 15: 15%, 30: 30%);
+
 @import "bootstrap/scss/bootstrap";
 
 /*
  * My CSS!
  */
 .feather {
-    width: 24px;
-    height: 24px;
-    stroke: currentColor;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }

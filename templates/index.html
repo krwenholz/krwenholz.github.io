@@ -5,19 +5,23 @@
   {% include "_includes/head.html" %}
 </head>
 <body>
+<div class="container">
+  {% include "_includes/heading.html" %}
 
-	<!-- Primary Page Layout
-	================================================== -->
+  <hr />
 
-	<div class="container">
-    <div class="offset-by-two eight columns">
-      {% include "_includes/heading.html" %}
-      {% include "_includes/navigation.html" %}
-      <hr />
-
+  <div class="row">
+    <div class="col-2 d-flex flex-column justify-content-center align-items-center">
+      <image
+        src="/images/rocketship.png"
+        alt=""
+        loading="lazy"
+        />
+    </div>
+    <div class="col">
       {{ section.content | safe }}
     </div>
-  </div><!-- container -->
-
+  </div>
+</div>
 </body>
 </html>

@@ -1,12 +1,27 @@
-<image src="/images/rocketship.png" />
-<h2><a href="/">Kyle R. Wenholz</a></h2>
-<p>
-  "We are waves of the same sea, leaves of the same tree, flowers of the same
-  garden." - Seneca
-</p>
-<hr />
-
-<h2><svg class="feather"><use xlink:href="feather-sprite.svg#search"></svg> Search:</h2>
-<input type="text" id="demo" onkeyup="doSearch()" />
-<h2>Results:</h2>
-<ul id="results"></ul>
+<div class="row mt-2">
+  <div class="col">
+    <ul
+      class="nav nav-pills justify-content-between align-items-center bg-dark p-1"
+    >
+      <li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="/projects/" class="nav-link">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="/resources/" class="nav-link">Fun resources</a>
+      </li>
+      <li class="nav-item pr-5">
+        <input
+          type="text"
+          onchange="doSearch()"
+          class="form-control mr-sm-2"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <ul id="search_results"></ul>
+      </li>
+    </ul>
+  </div>
+</div>

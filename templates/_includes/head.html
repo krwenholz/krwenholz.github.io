@@ -19,11 +19,10 @@
 </script>
 
 <script>
-  // And afterwards we can use all the functionality defined in wasm.
   const doSearch = () => {
     let value = document.getElementById("demo").value;
     const arr = window.search(value, 10);
-    let ul = document.getElementById("results");
+    let ul = document.getElementById("search_results");
     ul.innerHTML = "";
 
     for (i = 0; i < arr.length; i++) {
