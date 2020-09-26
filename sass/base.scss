@@ -40,3 +40,9 @@ $sizes: (1: 1%, 5: 5%, 10: 10%, 15: 15%, 30: 30%);
   stroke-linejoin: round;
   fill: none;
 }
+
+#search_results {
+  position: absolute;
+  top: calc(0.5rem + 100%);
+  z-index: 1;
+}

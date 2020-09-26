@@ -12,15 +12,20 @@
       <li class="nav-item">
         <a href="/resources/" class="nav-link">Fun resources</a>
       </li>
-      <li class="nav-item pr-5">
+      <li class="nav-item pr-5 position-relative">
         <input
+          id="search_input"
           type="text"
-          onchange="doSearch()"
+          oninput="doSearch()"
           class="form-control mr-sm-2"
           placeholder="Search"
           aria-label="Search"
         />
-        <ul id="search_results"></ul>
+        <ul
+          id="search_results"
+          class="invisible list-unstyled bg-dark border rounded shadow-md p-3"
+          aria-label="Search Results"
+        ></ul>
       </li>
     </ul>
   </div>
