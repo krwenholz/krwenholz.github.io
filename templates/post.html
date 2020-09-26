@@ -1,8 +1,18 @@
-+++
-layout: base
-+++
+<!DOCTYPE html>
+<head>
+  {% set title = page.title %}
+  {% set description = page.description %}
+  {% include "_includes/head.html" %}
+</head>
+<body>
+<div class="container">
+  {% include "_includes/heading.html" %}
 
-<h2>{{ page.title }}</h2>
-<h4>{{ page.date | date(format="%A, %B %d, %Y") }}</h4>
-<hr />
-{{ content }}
+  <div class="row">
+    <div class="col">
+      {{ page.content | safe }}
+    </div>
+  </div>
+</div>
+</body>
+</html>

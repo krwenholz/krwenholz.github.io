@@ -1,1 +1,19 @@
-{% extends "index.html" %}
+<!DOCTYPE html>
+<head>
+  {% set title = section.title %}
+  {% set description = section.description %}
+  {% include "_includes/head.html" %}
+</head>
+<body>
+<div class="container">
+  {% include "_includes/heading.html" %}
+
+  <div class="row">
+    <div class="col">
+      {{ section.content | safe }}
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

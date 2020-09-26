@@ -13,7 +13,7 @@ my spare time. You can read about one of them
 to keep a Google Photos album with all of the recent creations
 [here](https://goo.gl/photos/4AnXJGLgpWe1NMvb8).
 
-## Wood working/gardening/constructing
+## Turning Point Tales
 
 I like working with my friends and reading great fiction. We built a site for that.
 Check out [Turning Point Tales](https://turningpointtales.com) for a great time. We sourced
@@ -33,13 +33,13 @@ with [Elm](http://elm-lang.org/). I think
 tardiness of ferries in the Pacific Northwest. This is the capstone to my work
 in the University of Puget Sound's Honors Program.
 
-### Presentation
+#### Presentation
 
 This is the [presentation](https://github.com/krwenholz/FerryTimeliness/tree/master/Thesis/Presentation)
 I gave _after_ writing my paper. You can download the little guy and then
 just open the index in your modern web browser.
 
-### Paper
+#### Paper
 
 The Honors Program really wanted a paper, so
 [this](https://github.com/krwenholz/FerryTimeliness/tree/master/Thesis/Paper)

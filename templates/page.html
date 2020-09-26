@@ -5,22 +5,14 @@
   {% include "_includes/head.html" %}
 </head>
 <body>
+<div class="container">
+  {% include "_includes/heading.html" %}
 
-	<!-- Primary Page Layout
-	================================================== -->
-
-	<div class="container">
-    <div class="offset-by-two eight columns">
-      {% include "_includes/heading.html" %}
-      {% include "_includes/navigation.html" %}
-      <hr />
-      {{ page.content | safe}}
-      {% include "_includes/footer.html" %}
+  <div class="row">
+    <div class="col">
+      {{ page.content | safe }}
     </div>
-  </div><!-- container -->
-
-
-<!-- End Document
-================================================== -->
+  </div>
+</div>
 </body>
 </html>
