@@ -8,6 +8,10 @@
 <title>Ooh projects! | Kyle R. Wenholz</title>
 <meta name="description" content="" />
 <meta name="author" content="Kyle R. Wenholz" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
 
 <!-- Search import
   ================================================== -->
@@ -24,9 +28,10 @@
 
 <script>
   const doSearch = () => {
-    let value = document.getElementById("demo").value;
+    let value = document.getElementById("search_input").value;
     const arr = window.search(value, 10);
     let ul = document.getElementById("search_results");
+    console.log("XXX", ul, arr);
     ul.innerHTML = "";
 
     for (i = 0; i < arr.length; i++) {
@@ -37,8 +42,17 @@
       elemlink.innerHTML = elem[0];
       elemlink.setAttribute("href", elem[1]);
       li.appendChild(elemlink);
+      li.classList.add("mt-1", "mb-1");
 
       ul.appendChild(li);
+    }
+
+    if (ul.innerHTML) {
+      ul.classList.add("visible");
+      ul.classList.remove("invisible");
+    } else {
+      ul.classList.add("invisible");
+      ul.classList.remove("visible");
     }
   };
 </script>
@@ -52,31 +66,30 @@
 </head>
 <body>
 <div class="container">
-  <div class="row mt-2">
-  <div class="col">
+  <div class="row p-2 bg-dark">
+  <div class="col-auto">
+    <a href="/" class="nav-link">Home</a>
+  </div>
+  <div class="col-auto">
+    <a href="/projects/" class="nav-link">Projects</a>
+  </div>
+  <div class="col-auto">
+    <a href="/resources/" class="nav-link">Resources</a>
+  </div>
+  <div class="col-sm position-relative">
+    <input
+      id="search_input"
+      type="text"
+      oninput="doSearch()"
+      class="form-control mr-2"
+      placeholder="Search"
+      aria-label="Search"
+    />
     <ul
-      class="nav nav-pills justify-content-between align-items-center bg-dark p-1"
-    >
-      <li class="nav-item">
-        <a href="/" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="/projects/" class="nav-link">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a href="/resources/" class="nav-link">Fun resources</a>
-      </li>
-      <li class="nav-item pr-5">
-        <input
-          type="text"
-          onchange="doSearch()"
-          class="form-control mr-sm-2"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <ul id="search_results"></ul>
-      </li>
-    </ul>
+      id="search_results"
+      class="invisible list-unstyled bg-dark border rounded shadow-md p-3"
+      aria-label="Search Results"
+    ></ul>
   </div>
 </div>
 
