@@ -15,16 +15,8 @@ jobs:
         with:
           entrypoint: tinysearch
           args: --optimize --path public/search public/search/index.html
-      - name: ls
-        run: ls -lh public
-      - name: ls
-        run: ls -lh public/search
       - name: chown
         run: sudo chown runner:docker public/search/*
-      - name: ls
-        run: ls -lh public
-      - name: ls
-        run: ls -lh public/search
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -32,4 +24,3 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./public
           cname: www.krwenholz.com
-          allow_empty_commit: true
