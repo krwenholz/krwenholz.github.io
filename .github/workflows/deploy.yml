@@ -20,8 +20,6 @@ jobs:
           mv public/search public/search_old
           mkdir public/search
           mv public/search_old/* public/search
-          ls -lh public/
-          ls -lh public/search_old
           rm -rf public/search_old
           sudo chown runner:docker public/search/*
       - name: Publish
