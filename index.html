@@ -31,7 +31,6 @@
     let value = document.getElementById("search_input").value;
     const arr = window.search(value, 10);
     let ul = document.getElementById("search_results");
-    console.log("XXX", ul, arr);
     ul.innerHTML = "";
 
     for (i = 0; i < arr.length; i++) {
@@ -51,8 +50,11 @@
       ul.classList.add("visible");
       ul.classList.remove("invisible");
     } else {
-      ul.classList.add("invisible");
-      ul.classList.remove("visible");
+      var li = document.createElement("li");
+      li.innerHTML = "No results";
+      li.classList.add("mt-1", "mb-1");
+
+      ul.appendChild(li);
     }
   };
 </script>
