@@ -24,4 +24,5 @@ interviewing and hiring tools, one byte at a time.
 
 You can check out some of my publicly visible projects [here](/projects)
 and read more about my work history in my handy-dandy
-[resume](https://github.com/krwenholz/Resume/blob/master/resume.pdf).
+[resume](https://github.com/krwenholz/Resume/blob/master/resume.pdf). I have a few posts;
+check out the search bar or [this page](/posts) to find them.
