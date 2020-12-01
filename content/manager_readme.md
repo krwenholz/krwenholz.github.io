@@ -20,7 +20,7 @@ I like to think of myself as an Environment Cultivator. My job as an engineering
 is to
 
 - support growth of individuals and the team
-- drive psychological safety so we can have real conversations
+- drive trust so we can have real conversations
 - provide cover when necessary
 
 All in service of creating an environment for success.
@@ -46,6 +46,7 @@ Here are some links to books, articles, and talks I'm mulling over now and proba
 be for a while: i.e. they left an impression.
 
 - [How to Win Friends and Influence People](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
+- [Think in Systems: A Primer](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
 - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
 - [How to Solve It](https://en.wikipedia.org/wiki/How_to_Solve_It)
 - [Crucial Conversations](https://en.wikipedia.org/wiki/Crucial_Conversations:_Tools_for_Talking_When_Stakes_Are_High)
@@ -94,7 +95,7 @@ out you did hold back!
 ### When can you give me feedback and how should you deliver it?
 
 Any time. I'm happy to take feedback in the middle of a meeting if it's delivered with good
-intentions and grace. If yo want a private chat, put time on my calendar or just ask me!
+intentions and grace. If you want a private chat, put time on my calendar or just ask me!
 
 ## Ownership
 
@@ -123,7 +124,7 @@ professional:
   naturally is a work in progress.
 - Managing up is hard. I'm still fine tuning the best format for me to present information
   to leadership teams. Sometimes, a slideshow seems to work, and others it's a press release.
-  (Full Amazon!)
+  (Full Amazon!) Striking a balanced level of detail can be hard.
 - Disconnecting from Slack. I built some bad habits at the start of the pandemic and check
   Slack in the evening more than I care to admit. First step is admitting you have a problem,
   right?
