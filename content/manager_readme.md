@@ -11,8 +11,8 @@ These are some words to introduce myself, especially as a manager. While these w
 replace a real first impressions, "in person" conversation, I hope they lay the foundation
 for a juicier chat.
 
-This document is subject [to change](https://github.com/krwenholz/krwenholz.github.io/content/manager_readme.md). I have some strong ideas and opinions, especially about myself, but I'm
-optimistic they'll change.
+This document is subject [to change](https://github.com/krwenholz/krwenholz.github.io/content/manager_readme.md).
+I have some strong ideas and opinions, especially about myself, but I'm optimistic they'll change.
 
 # My role
 
@@ -42,11 +42,13 @@ found [here](https://photos.google.com/share/AF1QipPPR5N7AuE28ucrJPX9brb6XxazXH6
 
 ## Books and such on my mind
 
-Here are some links to books, articles, and talks I'm mulling over now and probably will
-be for a while: i.e. they left an impression.
+These are books, articles, and talks I'm constantly mulling over: i.e. they left an impression.
 
 - [How to Win Friends and Influence People](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
 - [Think in Systems: A Primer](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
+- [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+- [The Old Man and the Sea](https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea)
+- [Less Wrong](https://www.lesswrong.com/)
 - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
 - [How to Solve It](https://en.wikipedia.org/wiki/How_to_Solve_It)
 - [Crucial Conversations](https://en.wikipedia.org/wiki/Crucial_Conversations:_Tools_for_Talking_When_Stakes_Are_High)
@@ -57,7 +59,7 @@ be for a while: i.e. they left an impression.
 (If you're looking for "fun" books or cookbooks, hit me up! I have a list too long for
 this page.)
 
-# Favorite tools/tactics
+# Go to tools/tactics
 
 ## Successful conversations
 
@@ -77,11 +79,11 @@ fun as a walking meeting.
 I love having goals, but it's impossible to meet them reliably if you're tackling every
 one as a wholly new problem. Instead, I tend to focus on putting systems in place. Scott Adams
 has [a great post about this](https://www.scottadamssays.com/2013/11/18/goals-vs-systems/).
-This is kind of related to the whole environment thing above.
 
 ## Vim
 
-I'm just a really big fan of doing things on the command line, from coding to note taking.
+I'm just a really big fan of doing things in plain text on the command line, from coding
+to note taking.
 
 # What do I really need from my team?
 
@@ -96,12 +98,14 @@ out you did hold back!
 
 Any time. I'm happy to take feedback in the middle of a meeting if it's delivered with good
 intentions and grace. If you want a private chat, put time on my calendar or just ask me!
+I'm also open to just chatting over Slack if video/voice/in person isn't your thing.
 
 ## Ownership
 
 I expect folks to demonstrate extreme levels of ownership. As a team of adults, nobody is
-working entirely alone, but they are responsible for whatevery they get assigned and agree
-to. Sometimes this means asking for help!
+working entirely alone, but they are responsible for whatever they get assigned and agree
+to do. Sometimes this means asking for help and other times it means questioning or pushing
+back!
 
 ## Craft
 
@@ -127,4 +131,5 @@ professional:
   (Full Amazon!) Striking a balanced level of detail can be hard.
 - Disconnecting from Slack. I built some bad habits at the start of the pandemic and check
   Slack in the evening more than I care to admit. First step is admitting you have a problem,
-  right?
+  right? Historically, I've been great at separating work and life. I try to drive that into
+  my teams, but it can be hard with the urgency and fun of a tight-knit group.
