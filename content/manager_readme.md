@@ -94,6 +94,10 @@ the yearly review. This goes for feedback about my performance and that of the t
 are really the same thing). Don't hold back. I won't mind. I will, however, mind if I find
 out you did hold back!
 
+I'm not perfect, so I really expect there to be feedback at some point. If I haven't done
+something wrong or moderatley foolish all week, I'll consider it a failure of effort on
+my end.
+
 ### When can you give me feedback and how should you deliver it?
 
 Any time. I'm happy to take feedback in the middle of a meeting if it's delivered with good
