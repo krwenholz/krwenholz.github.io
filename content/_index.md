@@ -13,27 +13,9 @@ section is usually a hit.
 
 # README.kyle
 
-## My purpose
+## Me
 
-I read the following before my daily journaling.
-
-> I stand for love, kindness, and gratitude, leading those around me to our most noble selves. It is an exercise in definite optimism and the long view. Pity provides no comfort, and I do not thrive on catastrophe or negativity. I thrive on opportunity, grace, humility, and cultivating quiet moments often. Today is an opportunity to transform.
-
-## My role
-
-I like to think of myself as an Environment Cultivator. My job as an engineering leader is to
-
-- support growth of individuals and the team
-- drive trust so we can have real conversations
-- provide cover when necessary
-
-All in service of creating an environment for success.
-
-I also happen to have experience engineering things and like to get into the weeds with
-folks. Sometimes. That's not often the most valuable thing I can be doing for my team,
-but it's good for building empathy (both ways) and keeping my technical skills sharp.
-
-## Backstory
+### Backstory
 
 I was born and raised in Montana. I used to convince folks I grew up wrestling bears. I
 did not. You wouldn't believe how many people believed this.
@@ -41,8 +23,24 @@ did not. You wouldn't believe how many people believed this.
 My wife and I met at University of Puget Sound, married right after college. Our dog entered
 the picture in 2019. She's too smart for her own good.
 
+We now live in Tacoma, WA, after a long stint in Seattle.
+
 In my spare time I like to walk, read, cook, play games, and do some woodworking. Some project photos can be
 found [here](https://photos.google.com/share/AF1QipPPR5N7AuE28ucrJPX9brb6XxazXH6ohPlECQ_gxl3nRAepbHHwU6n-_xrqe8Hu0g?key=UHhNRUVld1NlZGc1OGtUWFlpZXNhN0tGUUZIbmtn).
+
+### Purpose
+
+I read the following before my daily journaling.
+
+> I stand for love, kindness, and gratitude, leading those around me to our most noble selves. It is an exercise in definite optimism and the long view. Pity provides no comfort, and I do not thrive on catastrophe or negativity. I thrive on opportunity, grace, humility, and cultivating quiet moments often. Today is an opportunity to transform.
+
+### How I describe my role
+
+My job as an engineering leader (environment cultivator) is to
+
+- Grow of individuals and the team for long term success
+- Drive trust for real, effective conversations
+- Provide cover when necessary
 
 ### Books and such on my mind
 
