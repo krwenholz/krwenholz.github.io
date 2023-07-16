@@ -7,9 +7,9 @@ Hi there!
 Below you'll find my `README`. It's an introduction, geared toward new coworkers. I used to bury it more deeply. Now, I think it's good top-level stuff. That said, before we get to it, here are a few other link-worthy pages.
 
 - [Publicly visible projects](/projects). The woodworking
-section is usually a hit.
+  section is usually a hit.
 - My [handy-dandy resume](https://github.com/krwenholz/Resume/blob/master/resume.pdf).
-
+- [LinkedIn](https://www.linkedin.com/in/kyle-wenholz/), which is allowed to run a bit longer than my one page resume ;)
 
 # README.kyle
 
@@ -30,7 +30,7 @@ found [here](https://photos.google.com/share/AF1QipPPR5N7AuE28ucrJPX9brb6XxazXH6
 
 I read the following before my daily journaling.
 
-> I stand for love, kindness, and gratitude, leading those around me to our most noble selves. It is an exercise in definite optimism and the long view. Pity provides no comfort, and I do not thrive on catastrophe or negativity. I thrive on opportunity, grace, humility, and cultivating quiet moments often. Today is an opportunity to transform.
+> Today is an opportunity to transform. I stand for love, kindness, and gratitude, leading those around me to our most noble selves. It is an exercise in definite optimism and the long view. Pity provides no comfort, and I do not thrive on catastrophe or negativity. I thrive on opportunity, grace, humility, and simple delights.
 
 ## How I describe my role
 
@@ -79,8 +79,9 @@ this page.)
 - Vim: I'm just a really big fan of doing things in plain text on the command line, from coding to note taking.
 
 ## What do I really need from others?
+
 - Feedback: Keep it blunt, rooted in facts/examples, and timely. I'm expecting it! This goes for feedback about my performance and that of the team (which are really the same thing). Don't hold back. I won't mind. I will, however, mind if I find
-out you did hold back!
+  out you did hold back!
 - Ownership: I expect folks to demonstrate high levels of ownership. As a team of adults, nobody is working entirely alone, but they are responsible for whatever they get assigned and commit to do. Sometimes this means asking for help and other times it means questioning or pushing back!
 - Craft: I believe software "engineering" is a craft. That means I want a team dedicated to learning, challenging themselves, interested in all aspects of the problem, and a respect for the process. A lot of times this shows up in code and designs, but it also comes down to being professional: communicating clearly, helping share knowledge via brownbags, wikis, etc., respecting boundaries like working hours.
 
@@ -92,7 +93,7 @@ out you did hold back!
   understand concrete commitments can help create measurable progress and let folks know
   something is wrong earlier. Getting good systems in place so measurement happens
   naturally is a work in progress.
-- Holding my peers accountable to the same level as myself. I am vocally self critical to a 
+- Holding my peers accountable to the same level as myself. I am vocally self critical to a
   fault. This leaves room for my personality to assuage others of guilt and chide myself in
   the same breath.
 - Not a fault, but I recognize my current position is about to change every week with new

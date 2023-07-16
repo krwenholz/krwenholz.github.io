@@ -16,8 +16,16 @@ to keep a Google Photos album with all of the recent creations
 ## Turning Point Tales
 
 I like working with my friends and reading great fiction. We built a site for that.
-Check out [Turning Point Tales](https://turningpointtales.com) for a great time. We sourced
-most of the works from students at University of Puget Sound. How neat is that?
+Check out [Turning Point Tales](https://github.com/krwenholz/ourfirstbigthing). It's just source code now, but we had a blast building a choose your own adventure site.
+We sourced most of the works from students at University of Puget Sound. How neat
+is that?
+
+## Ray Tracer Challenge
+
+[The Ray Tracer Challenge](https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/)
+is an excellent book, and a great way to exercise learning a language. I learned a
+bunch of go while working through most of the book. My source can be found on
+[GitHub](https://github.com/krwenholz/ray-tracer).
 
 ## Budget visualization
 
