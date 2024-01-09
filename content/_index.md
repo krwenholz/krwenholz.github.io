@@ -9,21 +9,21 @@ Below you'll find my `README`. It's an introduction, geared toward new coworkers
 - [Publicly visible projects](/projects). The woodworking
   section is usually a hit.
 - My [handy-dandy resume](https://github.com/krwenholz/Resume/blob/master/resume.pdf).
-- [LinkedIn](https://www.linkedin.com/in/kyle-wenholz/), which is allowed to run a bit longer than my one page resume ;)
+- [LinkedIn](https://www.linkedin.com/in/kyle-wenholz/), which is allowed to run a bit longer than my ~~one~~two page resume ;)
 
 # README.kyle
 
 ## Backstory
 
 I was born and raised in Montana. I used to convince folks I grew up wrestling bears. I
-did not. You wouldn't believe how many people believed this.
+did not.
 
 My wife and I met at University of Puget Sound, married right after college. Our dog entered
 the picture in 2019. She's too smart for her own good.
 
 We now live in Tacoma, WA, after a long stint in Seattle.
 
-In my spare time I like to walk, read, cook, play games, and do some woodworking. Some project photos can be
+In my spare time I like to walk, read, cook, play games, and work with wood. Some project photos can be
 found [here](https://photos.google.com/share/AF1QipPPR5N7AuE28ucrJPX9brb6XxazXH6ohPlECQ_gxl3nRAepbHHwU6n-_xrqe8Hu0g?key=UHhNRUVld1NlZGc1OGtUWFlpZXNhN0tGUUZIbmtn).
 
 ## Purpose
@@ -36,13 +36,15 @@ I read the following before my daily journaling.
 
 My job as an engineering leader (environment cultivator) is to
 
-- Grow of individuals and the team for long term success
+- Grow individuals and the team for long term success
 - Drive trust for real, effective conversations
 - Provide cover when necessary
 
+I love jumping in on the engineering problems, but those are a lot easier when the above goals are accomplished.
+
 ## Books and such on my mind
 
-These are books, articles, and talks I'm mulling over: i.e. they left an impression.
+These are books, articles, and talks I'm mulling over: i.e. they left an impression. The list sometimes changes.
 
 - [The 5AM Club](https://www.robinsharma.com/book/the-5am-club)
 - [How to Win Friends and Influence People](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
@@ -51,7 +53,6 @@ These are books, articles, and talks I'm mulling over: i.e. they left an impress
 - [The Old Man and the Sea](https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea)
 - [Less Wrong](https://www.lesswrong.com/)
 - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
-- [How to Solve It](https://en.wikipedia.org/wiki/How_to_Solve_It)
 - [Crucial Conversations](https://en.wikipedia.org/wiki/Crucial_Conversations:_Tools_for_Talking_When_Stakes_Are_High)
 - [Zen and the Art of Motorcycle Maintenance](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance)
 - [The Tao of Pooh](https://en.wikipedia.org/wiki/The_Tao_of_Pooh)
@@ -62,7 +63,7 @@ this page.)
 
 ## Quirks
 
-- I like to repeat and reframe things. A lot.
+- I like to repeat and reframe things. A lot. Let's iterate together.
 - I mumble/externally subvocalize to understand you better. It makes more sense in
   person when you don't have to ask if I'm muted.
 - Language matters to me, a lot. I'll be picky about word choice and
