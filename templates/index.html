@@ -17,9 +17,24 @@
         />
     </div>
   </div>
+
   <div class="row">
     <div class="col">
       {{ section.content | safe }}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      {% for year, posts in section.pages | reverse | group_by(attribute="year") %}
+      <h3>{{ year }}</h3>
+
+      <ul>
+        {% for post in posts %}
+        <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
     </div>
   </div>
 </div>
