@@ -10,18 +10,13 @@ jobs:
         run: |
           curl -s -L https://github.com/getzola/zola/releases/download/v0.9.0/zola-v0.9.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
           zola build
-      - name: index build
-        uses: docker://tinysearch/cli
+      - name: Build tinysearch
+        uses: leonhfr/tinysearch-action@v1
         with:
-          entrypoint: tinysearch
-          args: --optimize --path public/search public/search/index.html
-      - name: fix search
-        run: |
-          mv public/search public/search_old
-          mkdir public/search
-          mv public/search_old/* public/search
-          rm -rf public/search_old
-          sudo chown runner:docker public/search/*
+          index: public/search/index.json
+          output_dir: public/search
+          output_types: |
+            wasm
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
