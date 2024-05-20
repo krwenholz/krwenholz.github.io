@@ -1,6 +1,19 @@
-+++
-title = "Page not found"
-template = "index.html"
-+++
+<!DOCTYPE html>
+<head>
+  {% set title = "Page not found" %}
+  {% set description = "The page you requested couldn't be found." %}
+  {% include "_includes/head.html" %}
+</head>
+<body>
+<div class="container">
+  {% include "_includes/heading.html" %}
 
-¯\_(ツ)\_/¯ Sorry! The page you want doesn't seem to exist.
+  <div class="row">
+    <div class="col">
+        <p>¯\_(ツ)_/¯</p>
+        <p>Sorry! The page you want doesn't seem to exist.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
