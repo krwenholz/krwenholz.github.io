@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: zola build
-        uses: ghcr.io/getzola/zola:v0.18.0
+        uses: docker://ghcr.io/getzola/zola:v0.18.0
         with:
           entrypoint: zola
           args: build
