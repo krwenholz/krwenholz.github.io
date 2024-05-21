@@ -12,7 +12,7 @@ jobs:
           entrypoint: zola
           args: build
       - name: Build tinysearch
-        uses: docker://tinysearch/cli
+        uses: docker://tinysearch/cli:0.8
         with:
           entrypoint: tinysearch
           args: --optimize --path public/search public/search/index.html
