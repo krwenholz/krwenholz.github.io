@@ -22,26 +22,18 @@
 </head>
 <body>
 <div class="container">
-  <div class="row p-2 bg-dark">
-  <div class="col-auto">
-    <a href="/" class="nav-link">Home</a>
-  </div>
-  <div class="col-auto">
-    <a href="/projects/" class="nav-link">Projects</a>
-  </div>
-  <div class="col-auto">
-    <a href="/resources/" class="nav-link">Resources</a>
-  </div>
-  <div class="col-auto">
-    <a href="/posts/" class="nav-link">Posts</a>
-  </div>
+  <div class="row d-flex p-2 bg-dark align-items-center justify-content-around">
+  <a href="/" class="nav-link ">Home</a>
+  <a href="/projects/" class="nav-link">Projects</a>
+  <a href="/resources/" class="nav-link">Resources</a>
+  <a href="/posts/" class="nav-link">Posts</a>
 </div>
 
 <hr />
 
 
-  <div class="row">
-    <div class="col">
+  <div class="row align-items-center justify-content-start pb-4">
+    <div class="col-3">
       <image
         src="/images/rocketship.png"
         alt=""
@@ -65,6 +57,28 @@ section is usually a hit.</li>
 
     </div>
   </div>
+
+  <hr />
+<div class="row justify-content-end">
+  <div class="col-3">
+    <a href="mailto:kyle@krwenholz.com">
+      <svg class="feather">
+        <use href="feather-sprite.svg#mail" />
+      </svg>
+    </a>
+    <a href="http://github.com/krwenholz">
+      <i class="icon-github"></i>
+      <svg class="feather">
+        <use href="feather-sprite.svg#github" />
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/kyle-wenholz-3b591087/">
+      <svg class="feather">
+        <use href="feather-sprite.svg#linkedin" />
+      </svg>
+    </a>
+  </div>
+</div>
 </div>
 </body>
 </html>
