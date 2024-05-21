@@ -11,18 +11,6 @@ jobs:
         with:
           entrypoint: zola
           args: build
-      - name: Build tinysearch
-        uses: docker://tinysearch/cli:0.8
-        with:
-          entrypoint: tinysearch
-          args: --optimize --path public/search public/search/index.html
-      - name: fix search
-        run: |
-          mv public/search public/search_old
-          mkdir public/search
-          mv public/search_old/* public/search
-          rm -rf public/search_old
-          sudo chown runner:docker public/search/*
       - name: Publish
         uses: peaceiris/actions-gh-pages@v4
         with:

@@ -9,52 +9,6 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 />
 
-<!-- Search import
-  ================================================== -->
-<script type="module">
-  import { search, default as init } from "/search/tinysearch_engine.js";
-  window.search = search;
-
-  async function run() {
-    await init("/search/tinysearch_engine_bg.wasm");
-  }
-
-  run();
-</script>
-
-<script>
-  const doSearch = () => {
-    let value = document.getElementById("search_input").value;
-    const arr = window.search(value, 10);
-    let ul = document.getElementById("search_results");
-    ul.innerHTML = "";
-
-    for (i = 0; i < arr.length; i++) {
-      var li = document.createElement("li");
-
-      let elem = arr[i];
-      let elemlink = document.createElement("a");
-      elemlink.innerHTML = elem[0];
-      elemlink.setAttribute("href", elem[1]);
-      li.appendChild(elemlink);
-      li.classList.add("mt-1", "mb-1");
-
-      ul.appendChild(li);
-    }
-
-    if (ul.innerHTML) {
-      ul.classList.add("visible");
-      ul.classList.remove("invisible");
-    } else {
-      var li = document.createElement("li");
-      li.innerHTML = "No results";
-      li.classList.add("mt-1", "mb-1");
-
-      ul.appendChild(li);
-    }
-  };
-</script>
-
 <link href="/css?family=Inconsolata" rel="stylesheet" type="text/css" />
 
 <link href="/base.css" rel="stylesheet" type="text/css" />
