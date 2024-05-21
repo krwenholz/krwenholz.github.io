@@ -8,8 +8,8 @@
 <div class="container">
   {% include "_includes/heading.html" %}
 
-  <div class="row align-items-center justify-content-left pb-4">
-    <div class="col">
+  <div class="row align-items-center justify-content-start pb-4">
+    <div class="col-3">
       <image
         src="/images/rocketship.png"
         alt=""
@@ -23,6 +23,8 @@
       {{ section.content | safe }}
     </div>
   </div>
+
+  {% include "_includes/footer.html" %}
 </div>
 </body>
 </html>
