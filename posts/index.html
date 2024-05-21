@@ -13,52 +13,6 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 />
 
-<!-- Search import
-  ================================================== -->
-<script type="module">
-  import { search, default as init } from "/search/tinysearch_engine.js";
-  window.search = search;
-
-  async function run() {
-    await init("/search/tinysearch_engine_bg.wasm");
-  }
-
-  run();
-</script>
-
-<script>
-  const doSearch = () => {
-    let value = document.getElementById("search_input").value;
-    const arr = window.search(value, 10);
-    let ul = document.getElementById("search_results");
-    ul.innerHTML = "";
-
-    for (i = 0; i < arr.length; i++) {
-      var li = document.createElement("li");
-
-      let elem = arr[i];
-      let elemlink = document.createElement("a");
-      elemlink.innerHTML = elem[0];
-      elemlink.setAttribute("href", elem[1]);
-      li.appendChild(elemlink);
-      li.classList.add("mt-1", "mb-1");
-
-      ul.appendChild(li);
-    }
-
-    if (ul.innerHTML) {
-      ul.classList.add("visible");
-      ul.classList.remove("invisible");
-    } else {
-      var li = document.createElement("li");
-      li.innerHTML = "No results";
-      li.classList.add("mt-1", "mb-1");
-
-      ul.appendChild(li);
-    }
-  };
-</script>
-
 <link href="/css?family=Inconsolata" rel="stylesheet" type="text/css" />
 
 <link href="/base.css" rel="stylesheet" type="text/css" />
@@ -78,20 +32,8 @@
   <div class="col-auto">
     <a href="/resources/" class="nav-link">Resources</a>
   </div>
-  <div class="col-sm position-relative">
-    <input
-      id="search_input"
-      type="text"
-      oninput="doSearch()"
-      class="form-control mr-2"
-      placeholder="Search"
-      aria-label="Search"
-    />
-    <ul
-      id="search_results"
-      class="invisible list-unstyled bg-dark border rounded shadow-md p-3"
-      aria-label="Search Results"
-    ></ul>
+  <div class="col-auto">
+    <a href="/posts/" class="nav-link">Posts</a>
   </div>
 </div>
 
@@ -116,27 +58,27 @@
         
       </ul>
       
-      <h3>2012</h3>
-
-      <ul>
-        
-        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;interview-ready&#x2F;">Interview Ready</a></li>
-        
-        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;organizing-dotfiles&#x2F;">Organizing Dotfiles</a></li>
-        
-        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;sitting-down-after-standing-up&#x2F;">Sitting down after standing up</a></li>
-        
-        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;standing-up-in-my-cube&#x2F;">Standing up in my cube</a></li>
-        
-        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;launching-lendingshack&#x2F;">Launching LendingShack</a></li>
-        
-      </ul>
-      
       <h3>2014</h3>
 
       <ul>
         
         <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;fastmail-carddav&#x2F;">CardDav with Fastmail</a></li>
+        
+      </ul>
+      
+      <h3>2012</h3>
+
+      <ul>
+        
+        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;standing-up-in-my-cube&#x2F;">Standing up in my cube</a></li>
+        
+        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;launching-lendingshack&#x2F;">Launching LendingShack</a></li>
+        
+        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;organizing-dotfiles&#x2F;">Organizing Dotfiles</a></li>
+        
+        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;interview-ready&#x2F;">Interview Ready</a></li>
+        
+        <li><a href="http:&#x2F;&#x2F;www.krwenholz.com&#x2F;posts&#x2F;sitting-down-after-standing-up&#x2F;">Sitting down after standing up</a></li>
         
       </ul>
       
