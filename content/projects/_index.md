@@ -10,8 +10,8 @@ out.
 I like working with my hands, learning, and designing, so I build things in
 my spare time. You can read about one of them
 [here](http://www.krwenholz.com/2015/10/31/platform-bed). I also do my best
-to keep a Google Photos album with all of the recent creations
-[here](https://goo.gl/photos/4AnXJGLgpWe1NMvb8).
+to keep a public album with all of the recent creations
+[here](https://www.icloud.com/sharedalbum/#B2IJtdOXmWArG).
 
 ## Turning Point Tales
 
