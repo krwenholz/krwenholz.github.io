@@ -1,8 +1,8 @@
 <!-- Basic Page Needs
   ================================================== -->
 <meta charset="utf-8" />
-<title>{{ title }} | Kyle R. Wenholz</title>
-<meta name="description" content="{{ description }}" />
+<title>{{ .Title }} | Kyle R. Wenholz</title>
+<meta name="description" content="{{ .Description }}" />
 <meta name="author" content="Kyle R. Wenholz" />
 <meta
   name="viewport"
@@ -11,6 +11,8 @@
 
 <link href="/css?family=Inconsolata" rel="stylesheet" type="text/css" />
 
-<link href="/base.css" rel="stylesheet" type="text/css" />
+{{ $sass := resources.Get "sass/base.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet" type="text/css" />
 
 <link rel="shortcut icon" href="/favicon.ico" />

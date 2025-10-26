@@ -1,6 +1,7 @@
 +++
 title = "CardDav with Fastmail"
 description = "Setting up and loving CardDav with Fastmail"
+date = 2014-12-28
 +++
 
 So you heard about Fastmail's [CardDav beta](http://blog.fastmail.com/2014/12/22/carddav-beta-release/)?

@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <head>
-  {% set title = section.title %}
-  {% set description = section.description %}
-  {% include "_includes/head.html" %}
+  {{ partial "head.html" . }}
 </head>
 <body>
 <div class="container">
-  {% include "_includes/heading.html" %}
+  {{ partial "heading.html" . }}
 
   <div class="row align-items-center justify-content-start pb-4">
     <div class="col-3">
@@ -20,11 +18,11 @@
 
   <div class="row">
     <div class="col">
-      {{ section.content | safe }}
+      {{ .Content }}
     </div>
   </div>
 
-  {% include "_includes/footer.html" %}
+  {{ partial "footer.html" . }}
 </div>
 </body>
 </html>

@@ -1,0 +1,33 @@
+baseURL = "http://www.krwenholz.com"
+title = "Kyle's homepage"
+languageCode = "en-us"
+
+# Enable syntax highlighting
+[markup]
+  [markup.highlight]
+    # Use Chroma for syntax highlighting (Hugo's built-in)
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-light"
+    tabWidth = 4
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Pagination
+[params]
+  # Custom parameters can go here
+
+# Enable emoji support if needed
+enableEmoji = false
+
+# Enable Git info for lastmod dates
+enableGitInfo = true
+
+# Disable taxonomy pages we don't need
+disableKinds = []

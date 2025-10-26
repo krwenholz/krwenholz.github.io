@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+<div class="container">
+  {{ partial "heading.html" . }}
+
+  <div class="row">
+    <div class="col">
+      {{ .Content }}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      {{ range (.Pages.GroupByDate "2006").Reverse }}
+      <h3>{{ .Key }}</h3>
+
+      <ul>
+        {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,6 +1,7 @@
 +++
 title = "Standing up in my cube"
 description = "Brief thoughts on a stand-up desk"
+date = 2012-07-17
 +++
 
 I know it's a fad by now, but I just switched over to a stand-up desk.

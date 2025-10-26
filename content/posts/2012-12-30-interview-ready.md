@@ -1,6 +1,7 @@
 +++
 title = "Interview Ready"
 description = "How I'm preparing and what I would do differently to land my 'first' job"
+date = 2012-12-30
 +++
 
 I'm looking for a job! Well, really I want to find an awesome next

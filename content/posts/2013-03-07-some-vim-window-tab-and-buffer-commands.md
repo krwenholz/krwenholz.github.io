@@ -1,5 +1,6 @@
 +++
 title = "Some Vim Window, Tab, and Buffer Commands"
+date = 2013-03-07
 +++
 
 This is mostly a short record for myself, but here go the basic Vim window,

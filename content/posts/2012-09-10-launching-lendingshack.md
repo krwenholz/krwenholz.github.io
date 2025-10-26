@@ -1,6 +1,7 @@
 +++
 title = "Launching LendingShack"
 description = "A quick review of the process to launch my first monster."
+date = 2012-09-10
 +++
 
 Whew! (You can find "it" [here](http://lendingshack.com) for those impatient enough to

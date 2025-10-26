@@ -1,6 +1,7 @@
 +++
 title = "Platform bed"
 description = "Plans and pictures for a beautiful platform bed"
+date = 2015-10-31
 +++
 
 <img src="/images/furniture/platform_bed/finished_bed.jpg" width="350"/>

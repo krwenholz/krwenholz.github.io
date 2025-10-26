@@ -1,5 +1,6 @@
 +++
 title = "Organizing Dotfiles"
+date = 2012-10-30
 +++
 
 I did it! My dotfiles are pretty well organized now, and I love it. I recently

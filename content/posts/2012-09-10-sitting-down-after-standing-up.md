@@ -1,6 +1,7 @@
 +++
 title = "Sitting down after standing up"
 description = "An evaluation of the standing desk"
+date = 2012-09-10
 +++
 
 I had no idea what to write about my experience standing up at work, until I got
