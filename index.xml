@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kyle's homepage</title><link>http://www.krwenholz.com/</link><description>Recent content on Kyle's homepage</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://www.krwenholz.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Platform bed</title><link>http://www.krwenholz.com/posts/2015-10-31-platform-bed/</link><pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2015-10-31-platform-bed/</guid><description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Back in February, my wife Rachel and I started work on a new set of bedroom furniture.
+It began with little things like a headboard&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;and a bookcase&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;The largest project so far is a bed. I took a lot of time cobbling together
+various tutorials and images from across the web and Seattle&amp;rsquo;s many furniture stores to
+finally settle on a platform bed that looks a lot like Crate and Barrel&amp;rsquo;s
+&lt;a href="http://www.crateandbarrel.com/furniture/beds/atwood-bed-with-bookcase/f42064"&gt;Atwood&lt;/a&gt; bed.
+It turned out pretty simple and feels solid several months later, so here are the plans!&lt;/p&gt;</description></item><item><title>CardDav with Fastmail</title><link>http://www.krwenholz.com/posts/2014-12-28-fastmail-carddav/</link><pubDate>Sun, 28 Dec 2014 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2014-12-28-fastmail-carddav/</guid><description>&lt;p&gt;So you heard about Fastmail&amp;rsquo;s &lt;a href="http://blog.fastmail.com/2014/12/22/carddav-beta-release/"&gt;CardDav beta&lt;/a&gt;?
+Finding their &lt;a href="https://beta.fastmail.com/help/clients/applist.html"&gt;setup page&lt;/a&gt; lacking?&lt;/p&gt;
+&lt;p&gt;So did I!&lt;/p&gt;
+&lt;p&gt;Taking a look at their &lt;a href="https://www.fastmail.com/help/technical/servernamesandports.html?domain=fastmail.fm"&gt;servers and ports page&lt;/a&gt;
+(at the time of this writing) gave me the clues I needed. Try these settings with the &amp;ldquo;CardDav-sync beta&amp;rdquo; app:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Some Vim Window, Tab, and Buffer Commands</title><link>http://www.krwenholz.com/posts/2013-03-07-some-vim-window-tab-and-buffer-commands/</link><pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2013-03-07-some-vim-window-tab-and-buffer-commands/</guid><description>&lt;p&gt;This is mostly a short record for myself, but here go the basic Vim window,
+buffer and tab commands I like to use/know. My encouragement to learn effective
+use of all three stems from &lt;a href="http://blog.sanctum.geek.nz/buffers-windows-tabs/"&gt;this&lt;/a&gt;
+nice post.&lt;/p&gt;
+&lt;h2 id="windows"&gt;Windows&lt;/h2&gt;
+&lt;p&gt;Windows are for viewing things side by side. I only recently started getting to
+know these, but they&amp;rsquo;re super useful and make you look like a total badass.
+To create a new window you &amp;ldquo;split&amp;rdquo; your current one using the commands&lt;/p&gt;</description></item><item><title>Interview Ready</title><link>http://www.krwenholz.com/posts/2012-12-30-interview-ready/</link><pubDate>Sun, 30 Dec 2012 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2012-12-30-interview-ready/</guid><description>&lt;p&gt;I&amp;rsquo;m looking for a job! Well, really I want to find an awesome next
+step in my career as a software engineer. It&amp;rsquo;s a tough battle to
+track down the places I want to work, get application materials
+ready, get applications in in the right order (NP-Hard without a
+doubt), be prompt with my emails, and prepare for those interviews.
+I figure it might be nice to put down some resources and things I
+wish I had known.&lt;/p&gt;</description></item><item><title>Organizing Dotfiles</title><link>http://www.krwenholz.com/posts/2012-10-30-organizing-dotfiles/</link><pubDate>Tue, 30 Oct 2012 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2012-10-30-organizing-dotfiles/</guid><description>&lt;p&gt;I did it! My dotfiles are pretty well organized now, and I love it. I recently
+swapped out my os only to discover my terminal configuration is now painless.
+After installing Git, I just have to clone and then copy things to the correct
+places.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re reading this, you either know what a dotfile is and want to back up
+yours with ease, or you have no idea what I&amp;rsquo;m talking about. Let&amp;rsquo;s deal with
+the latter first, then return to what I did with my files.&lt;/p&gt;</description></item><item><title>Launching LendingShack</title><link>http://www.krwenholz.com/posts/2012-09-10-launching-lendingshack/</link><pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2012-09-10-launching-lendingshack/</guid><description>&lt;p&gt;Whew! (You can find &amp;ldquo;it&amp;rdquo; &lt;a href="http://lendingshack.com"&gt;here&lt;/a&gt; for those impatient enough to
+not read on.) Joey and I did it. We launched an actual website. After getting on
+with the CentsLess team, we worked all summer to break in our actual coding
+chops, learn Django, learn the Internets, and build a working product. It was
+an incredible challenge, filled with discouraging and elating moments in droves.&lt;/p&gt;
+&lt;p&gt;I never imagined taking on such a massive project so early, but Joey and I
+inspired one another to tackle this together. For us, it was a huge leap to
+produce something like this. We learned about Django, Heroku, Amazon S3,
+and more HTML/CSS3/Javascript than we ever imagined knowing. I hope to share
+some of the lessons in technical posts over the coming weeks (time permitting).
+Getting through these technical challenges is something no class experience can
+teach, and I&amp;rsquo;m really glad I had a partner to work through it with.&lt;/p&gt;</description></item><item><title>Sitting down after standing up</title><link>http://www.krwenholz.com/posts/2012-09-10-sitting-down-after-standing-up/</link><pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2012-09-10-sitting-down-after-standing-up/</guid><description>&lt;p&gt;I had no idea what to write about my experience standing up at work, until I got
+back to school and had to sit down again.&lt;/p&gt;
+&lt;p&gt;Standing was definitely the best thing I could do at work and in general. I
+felt in better shape, more alert, and generally happier about my day. It
+might sound silly, but sitting down is exhausting. To skip the boring details,
+let&amp;rsquo;s just say my back pain went away after starting to stand.&lt;/p&gt;</description></item><item><title>Standing up in my cube</title><link>http://www.krwenholz.com/posts/2012-07-17-standing-up-in-my-cube/</link><pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/posts/2012-07-17-standing-up-in-my-cube/</guid><description>&lt;p&gt;I know it&amp;rsquo;s a fad by now, but I just switched over to a stand-up desk.&lt;/p&gt;
+&lt;p&gt;After getting into the groove of things, my job had me sitting down most of
+the time. It only took about two weeks of this for my back to begin hurting
+and my posture to crumble into chaos. I couldn&amp;rsquo;t stand it! So I stood up ;)&lt;/p&gt;
+&lt;p&gt;Some research, including a few prompts from &lt;a href="http://lifehacker.com"&gt;Lifehacker&lt;/a&gt;,
+led me to consider the idea of a standing desk. I didn&amp;rsquo;t want to commit to
+one of the incredibly expensive, but very nice, desks you find through
+conventional shopping means. Not to be deterred, the cheap and effective
+solution eventually came across my screen: &lt;a href="http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html"&gt;Ikea&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Kyle's README</title><link>http://www.krwenholz.com/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/readme/</guid><description>&lt;p&gt;I like the idea of a &lt;a href="https://managerreadme.com"&gt;README&lt;/a&gt; for easier introduction
+and to help folks know my quirks. Check it out!&lt;/p&gt;
+&lt;h2 id="backstory"&gt;Backstory&lt;/h2&gt;
+&lt;p&gt;I was born and raised in Montana, and I used to convince folks I grew up wrestling bears.&lt;/p&gt;
+&lt;p&gt;My wife and I met at University of Puget Sound, married right after college. Our dog entered
+the picture in 2019. She&amp;rsquo;s too smart for her own good. We now live in Tacoma, WA, after a long stint in Seattle.&lt;/p&gt;</description></item><item><title>Resources</title><link>http://www.krwenholz.com/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://www.krwenholz.com/resources/</guid><description>&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id="some-latex-items"&gt;Some LaTeX Items&lt;/h3&gt;
+&lt;p&gt;Here are some helpful links for working with LaTeX:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://en.wikibooks.org/wiki/LaTeX"&gt;The always awesome wiki on LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.MikTeX.org"&gt;TeX on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.tug.org/texlive/"&gt;TeX on Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.xm1math.net/texmaker/"&gt;A great TeX editor&lt;/a&gt;, aside from Vim&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
